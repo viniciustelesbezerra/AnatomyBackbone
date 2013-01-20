@@ -4692,3 +4692,2446 @@ Started GET "/tweets" for 127.0.0.1 at Sun Jan 20 19:29:36 -0200 2013
 Processing by TweetsController#index as JSON
   [1m[35mTweet Load (2.5ms)[0m  SELECT "tweets".* FROM "tweets" 
 Completed 200 OK in 39ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Sun Jan 20 19:32:55 -0200 2013
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.8ms)
+Compiled application.css  (63ms)  (pid 6927)
+Compiled jquery.js  (36ms)  (pid 6927)
+Compiled jquery_ujs.js  (0ms)  (pid 6927)
+Compiled json2.js  (1ms)  (pid 6927)
+Compiled underscore.js  (0ms)  (pid 6927)
+Compiled backbone.js  (1ms)  (pid 6927)
+Compiled backbone-rails.js  (24ms)  (pid 6927)
+Compiled models/todo_item.js  (0ms)  (pid 6927)
+Compiled models/tweet.js  (0ms)  (pid 6927)
+Compiled collections/todo_items.js  (0ms)  (pid 6927)
+Compiled collections/tweet.js  (0ms)  (pid 6927)
+Compiled views/todo_view.js  (0ms)  (pid 6927)
+Compiled views/todos_view.js  (0ms)  (pid 6927)
+Compiled views/tweet_view.js  (0ms)  (pid 6927)
+Compiled views/tweets_view.js  (0ms)  (pid 6927)
+Compiled router.js  (0ms)  (pid 6927)
+Compiled application.js  (201ms)  (pid 6927)
+Completed 200 OK in 320ms (Views: 319.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Sun Jan 20 19:32:55 -0200 2013
+Served asset /application.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Sun Jan 20 19:32:55 -0200 2013
+Served asset /jquery.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Sun Jan 20 19:32:55 -0200 2013
+Served asset /jquery_ujs.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/json2.js?body=1" for 127.0.0.1 at Sun Jan 20 19:32:55 -0200 2013
+Served asset /json2.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/backbone.js?body=1" for 127.0.0.1 at Sun Jan 20 19:32:55 -0200 2013
+Served asset /backbone.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at Sun Jan 20 19:32:55 -0200 2013
+Served asset /underscore.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/backbone-rails.js?body=1" for 127.0.0.1 at Sun Jan 20 19:32:55 -0200 2013
+Served asset /backbone-rails.js - 304 Not Modified (8ms)
+
+
+Started GET "/assets/models/todo_item.js?body=1" for 127.0.0.1 at Sun Jan 20 19:32:55 -0200 2013
+Served asset /models/todo_item.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/models/tweet.js?body=1" for 127.0.0.1 at Sun Jan 20 19:32:55 -0200 2013
+Served asset /models/tweet.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/collections/todo_items.js?body=1" for 127.0.0.1 at Sun Jan 20 19:32:55 -0200 2013
+Served asset /collections/todo_items.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/collections/tweet.js?body=1" for 127.0.0.1 at Sun Jan 20 19:32:55 -0200 2013
+Served asset /collections/tweet.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/views/todo_view.js?body=1" for 127.0.0.1 at Sun Jan 20 19:32:55 -0200 2013
+Served asset /views/todo_view.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/views/todos_view.js?body=1" for 127.0.0.1 at Sun Jan 20 19:32:55 -0200 2013
+Served asset /views/todos_view.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/views/tweet_view.js?body=1" for 127.0.0.1 at Sun Jan 20 19:32:55 -0200 2013
+Served asset /views/tweet_view.js - 200 OK (3ms)
+
+
+Started GET "/assets/views/tweets_view.js?body=1" for 127.0.0.1 at Sun Jan 20 19:32:55 -0200 2013
+Served asset /views/tweets_view.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/router.js?body=1" for 127.0.0.1 at Sun Jan 20 19:32:55 -0200 2013
+Served asset /router.js - 200 OK (2ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Sun Jan 20 19:32:55 -0200 2013
+Served asset /application.js - 304 Not Modified (19ms)
+
+
+Started GET "/tweets" for 127.0.0.1 at Sun Jan 20 19:32:55 -0200 2013
+Processing by TweetsController#index as JSON
+  [1m[36mTweet Load (0.1ms)[0m  [1mSELECT "tweets".* FROM "tweets" [0m
+Completed 200 OK in 7ms (Views: 0.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Sun Jan 20 19:33:11 -0200 2013
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 13ms (Views: 12.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Sun Jan 20 19:33:11 -0200 2013
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Sun Jan 20 19:33:11 -0200 2013
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Sun Jan 20 19:33:11 -0200 2013
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at Sun Jan 20 19:33:11 -0200 2013
+Served asset /underscore.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/json2.js?body=1" for 127.0.0.1 at Sun Jan 20 19:33:11 -0200 2013
+Served asset /json2.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone.js?body=1" for 127.0.0.1 at Sun Jan 20 19:33:11 -0200 2013
+Served asset /backbone.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone-rails.js?body=1" for 127.0.0.1 at Sun Jan 20 19:33:11 -0200 2013
+Served asset /backbone-rails.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/models/todo_item.js?body=1" for 127.0.0.1 at Sun Jan 20 19:33:11 -0200 2013
+Served asset /models/todo_item.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/models/tweet.js?body=1" for 127.0.0.1 at Sun Jan 20 19:33:11 -0200 2013
+Served asset /models/tweet.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/collections/todo_items.js?body=1" for 127.0.0.1 at Sun Jan 20 19:33:11 -0200 2013
+Served asset /collections/todo_items.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/collections/tweet.js?body=1" for 127.0.0.1 at Sun Jan 20 19:33:11 -0200 2013
+Served asset /collections/tweet.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/views/todo_view.js?body=1" for 127.0.0.1 at Sun Jan 20 19:33:11 -0200 2013
+Served asset /views/todo_view.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/views/todos_view.js?body=1" for 127.0.0.1 at Sun Jan 20 19:33:11 -0200 2013
+Served asset /views/todos_view.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/views/tweet_view.js?body=1" for 127.0.0.1 at Sun Jan 20 19:33:11 -0200 2013
+Served asset /views/tweet_view.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/views/tweets_view.js?body=1" for 127.0.0.1 at Sun Jan 20 19:33:11 -0200 2013
+Served asset /views/tweets_view.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/router.js?body=1" for 127.0.0.1 at Sun Jan 20 19:33:11 -0200 2013
+Served asset /router.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Sun Jan 20 19:33:11 -0200 2013
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/tweets" for 127.0.0.1 at Sun Jan 20 19:33:11 -0200 2013
+Processing by TweetsController#index as JSON
+  [1m[35mTweet Load (0.2ms)[0m  SELECT "tweets".* FROM "tweets" 
+Completed 200 OK in 2ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tweets" for 127.0.0.1 at Sun Jan 20 19:33:21 -0200 2013
+Processing by TweetsController#index as HTML
+  [1m[36mTweet Load (0.2ms)[0m  [1mSELECT "tweets".* FROM "tweets" [0m
+Completed 406 Not Acceptable in 2ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/tweets" for 127.0.0.1 at Sun Jan 20 19:33:42 -0200 2013
+Processing by TweetsController#index as HTML
+  [1m[35mTweet Load (0.1ms)[0m  SELECT "tweets".* FROM "tweets" 
+  Rendered tweets/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 11ms (Views: 7.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Sun Jan 20 19:33:42 -0200 2013
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Sun Jan 20 19:33:42 -0200 2013
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Sun Jan 20 19:33:42 -0200 2013
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone.js?body=1" for 127.0.0.1 at Sun Jan 20 19:33:42 -0200 2013
+Served asset /backbone.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at Sun Jan 20 19:33:42 -0200 2013
+Served asset /underscore.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/json2.js?body=1" for 127.0.0.1 at Sun Jan 20 19:33:42 -0200 2013
+Served asset /json2.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone-rails.js?body=1" for 127.0.0.1 at Sun Jan 20 19:33:42 -0200 2013
+Served asset /backbone-rails.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/models/todo_item.js?body=1" for 127.0.0.1 at Sun Jan 20 19:33:42 -0200 2013
+Served asset /models/todo_item.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/models/tweet.js?body=1" for 127.0.0.1 at Sun Jan 20 19:33:42 -0200 2013
+Served asset /models/tweet.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/collections/todo_items.js?body=1" for 127.0.0.1 at Sun Jan 20 19:33:42 -0200 2013
+Served asset /collections/todo_items.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/collections/tweet.js?body=1" for 127.0.0.1 at Sun Jan 20 19:33:42 -0200 2013
+Served asset /collections/tweet.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/views/todo_view.js?body=1" for 127.0.0.1 at Sun Jan 20 19:33:42 -0200 2013
+Served asset /views/todo_view.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/views/todos_view.js?body=1" for 127.0.0.1 at Sun Jan 20 19:33:42 -0200 2013
+Served asset /views/todos_view.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/views/tweet_view.js?body=1" for 127.0.0.1 at Sun Jan 20 19:33:42 -0200 2013
+Served asset /views/tweet_view.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/views/tweets_view.js?body=1" for 127.0.0.1 at Sun Jan 20 19:33:42 -0200 2013
+Served asset /views/tweets_view.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/router.js?body=1" for 127.0.0.1 at Sun Jan 20 19:33:42 -0200 2013
+Served asset /router.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Sun Jan 20 19:33:42 -0200 2013
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bg-body.jpg" for 127.0.0.1 at Sun Jan 20 19:33:42 -0200 2013
+Served asset /bg-body.jpg - 304 Not Modified (7ms)
+
+
+Started GET "/tweets" for 127.0.0.1 at Sun Jan 20 19:33:42 -0200 2013
+Processing by TweetsController#index as JSON
+  [1m[36mTweet Load (0.2ms)[0m  [1mSELECT "tweets".* FROM "tweets" [0m
+Completed 200 OK in 4ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bg-todo.png" for 127.0.0.1 at Sun Jan 20 19:33:42 -0200 2013
+Served asset /bg-todo.png - 304 Not Modified (4ms)
+
+
+Started GET "/tweets/new" for 127.0.0.1 at Sun Jan 20 19:33:44 -0200 2013
+Processing by TweetsController#new as HTML
+  Rendered tweets/_form.html.erb (0.9ms)
+  Rendered tweets/new.html.erb within layouts/application (2.8ms)
+Completed 500 Internal Server Error in 4ms
+
+ActionView::Template::Error (undefined method `model_name' for NilClass:Class):
+    1: <%= form_for(@tweet) do |f| %>
+    2:   <% if @tweet.errors.any? %>
+    3:     <div id="error_explanation">
+    4:       <h2><%= pluralize(@tweet.errors.count, "error") %> prohibited this tweet from being saved:</h2>
+  app/views/tweets/_form.html.erb:1:in `_app_views_tweets__form_html_erb___719332696__621041798'
+  app/views/tweets/new.html.erb:3:in `_app_views_tweets_new_html_erb__999896850__621000758'
+
+
+  Rendered /home/vinicius/.rvm/gems/ruby-1.9.3-p327@global/gems/actionpack-3.2.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered /home/vinicius/.rvm/gems/ruby-1.9.3-p327@global/gems/actionpack-3.2.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /home/vinicius/.rvm/gems/ruby-1.9.3-p327@global/gems/actionpack-3.2.2/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (7.7ms)
+
+
+Started GET "/tweets/new" for 127.0.0.1 at Sun Jan 20 19:36:45 -0200 2013
+
+SyntaxError (/home/vinicius/projects/anatomybackbonejs/app/controllers/tweets_controller.rb:40: syntax error, unexpected ':', expecting '}'
+      format.json { render json: @tweet }
+                                ^
+/home/vinicius/projects/anatomybackbonejs/app/controllers/tweets_controller.rb:49: syntax error, unexpected ':', expecting '}'
+... { redirect_to @tweet, notice: 'tweet was successfully creat...
+                              ^
+/home/vinicius/projects/anatomybackbonejs/app/controllers/tweets_controller.rb:50: syntax error, unexpected ':', expecting '}'
+...    format.json { render json: @tweet, status: :created, loc...
+                              ^
+/home/vinicius/projects/anatomybackbonejs/app/controllers/tweets_controller.rb:50: syntax error, unexpected ':', expecting '='
+...{ render json: @tweet, status: :created, location: @tweet }
+                              ^
+/home/vinicius/projects/anatomybackbonejs/app/controllers/tweets_controller.rb:52: syntax error, unexpected ':', expecting '}'
+        format.html { render action: "new" }
+                                    ^
+/home/vinicius/projects/anatomybackbonejs/app/controllers/tweets_controller.rb:53: syntax error, unexpected ':', expecting '}'
+...    format.json { render json: @tweet.errors, status: :unpro...
+                              ^
+/home/vinicius/projects/anatomybackbonejs/app/controllers/tweets_controller.rb:53: syntax error, unexpected ':', expecting '='
+...r json: @tweet.errors, status: :unprocessable_entity }
+                              ^):
+  activesupport (3.2.2) lib/active_support/dependencies.rb:469:in `load'
+  activesupport (3.2.2) lib/active_support/dependencies.rb:469:in `load_file'
+  activesupport (3.2.2) lib/active_support/dependencies.rb:639:in `new_constants_in'
+  activesupport (3.2.2) lib/active_support/dependencies.rb:468:in `load_file'
+  activesupport (3.2.2) lib/active_support/dependencies.rb:353:in `require_or_load'
+  activesupport (3.2.2) lib/active_support/dependencies.rb:502:in `load_missing_constant'
+  activesupport (3.2.2) lib/active_support/dependencies.rb:192:in `const_missing'
+  activesupport (3.2.2) lib/active_support/dependencies.rb:190:in `each'
+  activesupport (3.2.2) lib/active_support/dependencies.rb:190:in `const_missing'
+  activesupport (3.2.2) lib/active_support/inflector/methods.rb:218:in `constantize'
+  activesupport (3.2.2) lib/active_support/inflector/methods.rb:217:in `each'
+  activesupport (3.2.2) lib/active_support/inflector/methods.rb:217:in `constantize'
+  activesupport (3.2.2) lib/active_support/dependencies.rb:554:in `get'
+  actionpack (3.2.2) lib/action_dispatch/routing/route_set.rb:63:in `controller_reference'
+  actionpack (3.2.2) lib/action_dispatch/routing/route_set.rb:48:in `controller'
+  actionpack (3.2.2) lib/action_dispatch/routing/route_set.rb:26:in `call'
+  journey (1.0.3) lib/journey/router.rb:68:in `call'
+  journey (1.0.3) lib/journey/router.rb:56:in `each'
+  journey (1.0.3) lib/journey/router.rb:56:in `call'
+  actionpack (3.2.2) lib/action_dispatch/routing/route_set.rb:594:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  rack (1.4.1) lib/rack/etag.rb:23:in `call'
+  rack (1.4.1) lib/rack/conditionalget.rb:25:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/head.rb:14:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/flash.rb:242:in `call'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:205:in `context'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:200:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/cookies.rb:338:in `call'
+  activerecord (3.2.2) lib/active_record/query_cache.rb:64:in `call'
+  activerecord (3.2.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:443:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/callbacks.rb:28:in `call'
+  activesupport (3.2.2) lib/active_support/callbacks.rb:405:in `_run__833935389__call__4__callbacks'
+  activesupport (3.2.2) lib/active_support/callbacks.rb:405:in `send'
+  activesupport (3.2.2) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.2) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.2) lib/active_support/callbacks.rb:81:in `send'
+  activesupport (3.2.2) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.2) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.2) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.2) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.2) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/static.rb:61:in `call'
+  railties (3.2.2) lib/rails/engine.rb:479:in `call'
+  railties (3.2.2) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.2) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+  rack (1.4.1) lib/rack/handler/webrick.rb:13:in `run'
+  rack (1.4.1) lib/rack/server.rb:265:in `start'
+  railties (3.2.2) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.2) lib/rails/commands.rb:55
+  railties (3.2.2) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.2) lib/rails/commands.rb:50
+  script/rails:6:in `require'
+  script/rails:6
+
+
+  Rendered /home/vinicius/.rvm/gems/ruby-1.9.3-p327@global/gems/actionpack-3.2.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.8ms)
+  Rendered /home/vinicius/.rvm/gems/ruby-1.9.3-p327@global/gems/actionpack-3.2.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /home/vinicius/.rvm/gems/ruby-1.9.3-p327@global/gems/actionpack-3.2.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (14.8ms)
+
+
+Started GET "/tweets/new" for 127.0.0.1 at Sun Jan 20 19:38:16 -0200 2013
+
+SyntaxError (/home/vinicius/projects/anatomybackbonejs/app/controllers/tweets_controller.rb:40: syntax error, unexpected ':', expecting '}'
+      format.json { render json: @tweet }
+                                ^
+/home/vinicius/projects/anatomybackbonejs/app/controllers/tweets_controller.rb:49: syntax error, unexpected ':', expecting '}'
+... { redirect_to @tweet, notice: 'tweet was successfully creat...
+                              ^
+/home/vinicius/projects/anatomybackbonejs/app/controllers/tweets_controller.rb:50: syntax error, unexpected ':', expecting '}'
+...    format.json { render json: @tweet, status: :created, loc...
+                              ^
+/home/vinicius/projects/anatomybackbonejs/app/controllers/tweets_controller.rb:50: syntax error, unexpected ':', expecting '='
+...{ render json: @tweet, status: :created, location: @tweet }
+                              ^
+/home/vinicius/projects/anatomybackbonejs/app/controllers/tweets_controller.rb:52: syntax error, unexpected ':', expecting '}'
+        format.html { render action: "new" }
+                                    ^
+/home/vinicius/projects/anatomybackbonejs/app/controllers/tweets_controller.rb:53: syntax error, unexpected ':', expecting '}'
+...    format.json { render json: @tweet.errors, status: :unpro...
+                              ^
+/home/vinicius/projects/anatomybackbonejs/app/controllers/tweets_controller.rb:53: syntax error, unexpected ':', expecting '='
+...r json: @tweet.errors, status: :unprocessable_entity }
+                              ^):
+  activesupport (3.2.2) lib/active_support/dependencies.rb:469:in `load'
+  activesupport (3.2.2) lib/active_support/dependencies.rb:469:in `load_file'
+  activesupport (3.2.2) lib/active_support/dependencies.rb:639:in `new_constants_in'
+  activesupport (3.2.2) lib/active_support/dependencies.rb:468:in `load_file'
+  activesupport (3.2.2) lib/active_support/dependencies.rb:353:in `require_or_load'
+  activesupport (3.2.2) lib/active_support/dependencies.rb:502:in `load_missing_constant'
+  activesupport (3.2.2) lib/active_support/dependencies.rb:192:in `const_missing'
+  activesupport (3.2.2) lib/active_support/dependencies.rb:190:in `each'
+  activesupport (3.2.2) lib/active_support/dependencies.rb:190:in `const_missing'
+  activesupport (3.2.2) lib/active_support/inflector/methods.rb:218:in `constantize'
+  activesupport (3.2.2) lib/active_support/inflector/methods.rb:217:in `each'
+  activesupport (3.2.2) lib/active_support/inflector/methods.rb:217:in `constantize'
+  activesupport (3.2.2) lib/active_support/dependencies.rb:554:in `get'
+  actionpack (3.2.2) lib/action_dispatch/routing/route_set.rb:63:in `controller_reference'
+  actionpack (3.2.2) lib/action_dispatch/routing/route_set.rb:48:in `controller'
+  actionpack (3.2.2) lib/action_dispatch/routing/route_set.rb:26:in `call'
+  journey (1.0.3) lib/journey/router.rb:68:in `call'
+  journey (1.0.3) lib/journey/router.rb:56:in `each'
+  journey (1.0.3) lib/journey/router.rb:56:in `call'
+  actionpack (3.2.2) lib/action_dispatch/routing/route_set.rb:594:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  rack (1.4.1) lib/rack/etag.rb:23:in `call'
+  rack (1.4.1) lib/rack/conditionalget.rb:25:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/head.rb:14:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/flash.rb:242:in `call'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:205:in `context'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:200:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/cookies.rb:338:in `call'
+  activerecord (3.2.2) lib/active_record/query_cache.rb:64:in `call'
+  activerecord (3.2.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:443:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/callbacks.rb:28:in `call'
+  activesupport (3.2.2) lib/active_support/callbacks.rb:405:in `_run__833935389__call__4__callbacks'
+  activesupport (3.2.2) lib/active_support/callbacks.rb:405:in `send'
+  activesupport (3.2.2) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.2) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.2) lib/active_support/callbacks.rb:81:in `send'
+  activesupport (3.2.2) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.2) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.2) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.2) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.2) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/static.rb:61:in `call'
+  railties (3.2.2) lib/rails/engine.rb:479:in `call'
+  railties (3.2.2) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.2) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+  rack (1.4.1) lib/rack/handler/webrick.rb:13:in `run'
+  rack (1.4.1) lib/rack/server.rb:265:in `start'
+  railties (3.2.2) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.2) lib/rails/commands.rb:55
+  railties (3.2.2) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.2) lib/rails/commands.rb:50
+  script/rails:6:in `require'
+  script/rails:6
+
+
+  Rendered /home/vinicius/.rvm/gems/ruby-1.9.3-p327@global/gems/actionpack-3.2.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered /home/vinicius/.rvm/gems/ruby-1.9.3-p327@global/gems/actionpack-3.2.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /home/vinicius/.rvm/gems/ruby-1.9.3-p327@global/gems/actionpack-3.2.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (6.3ms)
+
+
+Started GET "/tweets/new" for 127.0.0.1 at Sun Jan 20 19:38:18 -0200 2013
+
+SyntaxError (/home/vinicius/projects/anatomybackbonejs/app/controllers/tweets_controller.rb:40: syntax error, unexpected ':', expecting '}'
+      format.json { render json: @tweet }
+                                ^
+/home/vinicius/projects/anatomybackbonejs/app/controllers/tweets_controller.rb:49: syntax error, unexpected ':', expecting '}'
+... { redirect_to @tweet, notice: 'tweet was successfully creat...
+                              ^
+/home/vinicius/projects/anatomybackbonejs/app/controllers/tweets_controller.rb:50: syntax error, unexpected ':', expecting '}'
+...    format.json { render json: @tweet, status: :created, loc...
+                              ^
+/home/vinicius/projects/anatomybackbonejs/app/controllers/tweets_controller.rb:50: syntax error, unexpected ':', expecting '='
+...{ render json: @tweet, status: :created, location: @tweet }
+                              ^
+/home/vinicius/projects/anatomybackbonejs/app/controllers/tweets_controller.rb:52: syntax error, unexpected ':', expecting '}'
+        format.html { render action: "new" }
+                                    ^
+/home/vinicius/projects/anatomybackbonejs/app/controllers/tweets_controller.rb:53: syntax error, unexpected ':', expecting '}'
+...    format.json { render json: @tweet.errors, status: :unpro...
+                              ^
+/home/vinicius/projects/anatomybackbonejs/app/controllers/tweets_controller.rb:53: syntax error, unexpected ':', expecting '='
+...r json: @tweet.errors, status: :unprocessable_entity }
+                              ^):
+  activesupport (3.2.2) lib/active_support/dependencies.rb:469:in `load'
+  activesupport (3.2.2) lib/active_support/dependencies.rb:469:in `load_file'
+  activesupport (3.2.2) lib/active_support/dependencies.rb:639:in `new_constants_in'
+  activesupport (3.2.2) lib/active_support/dependencies.rb:468:in `load_file'
+  activesupport (3.2.2) lib/active_support/dependencies.rb:353:in `require_or_load'
+  activesupport (3.2.2) lib/active_support/dependencies.rb:502:in `load_missing_constant'
+  activesupport (3.2.2) lib/active_support/dependencies.rb:192:in `const_missing'
+  activesupport (3.2.2) lib/active_support/dependencies.rb:190:in `each'
+  activesupport (3.2.2) lib/active_support/dependencies.rb:190:in `const_missing'
+  activesupport (3.2.2) lib/active_support/inflector/methods.rb:218:in `constantize'
+  activesupport (3.2.2) lib/active_support/inflector/methods.rb:217:in `each'
+  activesupport (3.2.2) lib/active_support/inflector/methods.rb:217:in `constantize'
+  activesupport (3.2.2) lib/active_support/dependencies.rb:554:in `get'
+  actionpack (3.2.2) lib/action_dispatch/routing/route_set.rb:63:in `controller_reference'
+  actionpack (3.2.2) lib/action_dispatch/routing/route_set.rb:48:in `controller'
+  actionpack (3.2.2) lib/action_dispatch/routing/route_set.rb:26:in `call'
+  journey (1.0.3) lib/journey/router.rb:68:in `call'
+  journey (1.0.3) lib/journey/router.rb:56:in `each'
+  journey (1.0.3) lib/journey/router.rb:56:in `call'
+  actionpack (3.2.2) lib/action_dispatch/routing/route_set.rb:594:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  rack (1.4.1) lib/rack/etag.rb:23:in `call'
+  rack (1.4.1) lib/rack/conditionalget.rb:25:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/head.rb:14:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/flash.rb:242:in `call'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:205:in `context'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:200:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/cookies.rb:338:in `call'
+  activerecord (3.2.2) lib/active_record/query_cache.rb:64:in `call'
+  activerecord (3.2.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:443:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/callbacks.rb:28:in `call'
+  activesupport (3.2.2) lib/active_support/callbacks.rb:405:in `_run__833935389__call__4__callbacks'
+  activesupport (3.2.2) lib/active_support/callbacks.rb:405:in `send'
+  activesupport (3.2.2) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.2) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.2) lib/active_support/callbacks.rb:81:in `send'
+  activesupport (3.2.2) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.2) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.2) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.2) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.2) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/static.rb:61:in `call'
+  railties (3.2.2) lib/rails/engine.rb:479:in `call'
+  railties (3.2.2) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.2) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+  rack (1.4.1) lib/rack/handler/webrick.rb:13:in `run'
+  rack (1.4.1) lib/rack/server.rb:265:in `start'
+  railties (3.2.2) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.2) lib/rails/commands.rb:55
+  railties (3.2.2) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.2) lib/rails/commands.rb:50
+  script/rails:6:in `require'
+  script/rails:6
+
+
+  Rendered /home/vinicius/.rvm/gems/ruby-1.9.3-p327@global/gems/actionpack-3.2.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.8ms)
+  Rendered /home/vinicius/.rvm/gems/ruby-1.9.3-p327@global/gems/actionpack-3.2.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /home/vinicius/.rvm/gems/ruby-1.9.3-p327@global/gems/actionpack-3.2.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (6.3ms)
+
+
+Started GET "/tweets/new" for 127.0.0.1 at Sun Jan 20 19:38:25 -0200 2013
+
+SyntaxError (/home/vinicius/projects/anatomybackbonejs/app/controllers/tweets_controller.rb:40: syntax error, unexpected ':', expecting '}'
+      format.json { render json: @tweet }
+                                ^
+/home/vinicius/projects/anatomybackbonejs/app/controllers/tweets_controller.rb:49: syntax error, unexpected ':', expecting '}'
+... { redirect_to @tweet, notice: 'tweet was successfully creat...
+                              ^
+/home/vinicius/projects/anatomybackbonejs/app/controllers/tweets_controller.rb:50: syntax error, unexpected ':', expecting '}'
+...    format.json { render json: @tweet, status: :created, loc...
+                              ^
+/home/vinicius/projects/anatomybackbonejs/app/controllers/tweets_controller.rb:50: syntax error, unexpected ':', expecting '='
+...{ render json: @tweet, status: :created, location: @tweet }
+                              ^
+/home/vinicius/projects/anatomybackbonejs/app/controllers/tweets_controller.rb:52: syntax error, unexpected ':', expecting '}'
+        format.html { render action: "new" }
+                                    ^
+/home/vinicius/projects/anatomybackbonejs/app/controllers/tweets_controller.rb:53: syntax error, unexpected ':', expecting '}'
+...    format.json { render json: @tweet.errors, status: :unpro...
+                              ^
+/home/vinicius/projects/anatomybackbonejs/app/controllers/tweets_controller.rb:53: syntax error, unexpected ':', expecting '='
+...r json: @tweet.errors, status: :unprocessable_entity }
+                              ^):
+  activesupport (3.2.2) lib/active_support/dependencies.rb:469:in `load'
+  activesupport (3.2.2) lib/active_support/dependencies.rb:469:in `load_file'
+  activesupport (3.2.2) lib/active_support/dependencies.rb:639:in `new_constants_in'
+  activesupport (3.2.2) lib/active_support/dependencies.rb:468:in `load_file'
+  activesupport (3.2.2) lib/active_support/dependencies.rb:353:in `require_or_load'
+  activesupport (3.2.2) lib/active_support/dependencies.rb:502:in `load_missing_constant'
+  activesupport (3.2.2) lib/active_support/dependencies.rb:192:in `const_missing'
+  activesupport (3.2.2) lib/active_support/dependencies.rb:190:in `each'
+  activesupport (3.2.2) lib/active_support/dependencies.rb:190:in `const_missing'
+  activesupport (3.2.2) lib/active_support/inflector/methods.rb:218:in `constantize'
+  activesupport (3.2.2) lib/active_support/inflector/methods.rb:217:in `each'
+  activesupport (3.2.2) lib/active_support/inflector/methods.rb:217:in `constantize'
+  activesupport (3.2.2) lib/active_support/dependencies.rb:554:in `get'
+  actionpack (3.2.2) lib/action_dispatch/routing/route_set.rb:63:in `controller_reference'
+  actionpack (3.2.2) lib/action_dispatch/routing/route_set.rb:48:in `controller'
+  actionpack (3.2.2) lib/action_dispatch/routing/route_set.rb:26:in `call'
+  journey (1.0.3) lib/journey/router.rb:68:in `call'
+  journey (1.0.3) lib/journey/router.rb:56:in `each'
+  journey (1.0.3) lib/journey/router.rb:56:in `call'
+  actionpack (3.2.2) lib/action_dispatch/routing/route_set.rb:594:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  rack (1.4.1) lib/rack/etag.rb:23:in `call'
+  rack (1.4.1) lib/rack/conditionalget.rb:25:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/head.rb:14:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/flash.rb:242:in `call'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:205:in `context'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:200:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/cookies.rb:338:in `call'
+  activerecord (3.2.2) lib/active_record/query_cache.rb:64:in `call'
+  activerecord (3.2.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:443:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/callbacks.rb:28:in `call'
+  activesupport (3.2.2) lib/active_support/callbacks.rb:405:in `_run__833935389__call__4__callbacks'
+  activesupport (3.2.2) lib/active_support/callbacks.rb:405:in `send'
+  activesupport (3.2.2) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.2) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.2) lib/active_support/callbacks.rb:81:in `send'
+  activesupport (3.2.2) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.2) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.2) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.2) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.2) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/static.rb:61:in `call'
+  railties (3.2.2) lib/rails/engine.rb:479:in `call'
+  railties (3.2.2) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.2) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+  rack (1.4.1) lib/rack/handler/webrick.rb:13:in `run'
+  rack (1.4.1) lib/rack/server.rb:265:in `start'
+  railties (3.2.2) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.2) lib/rails/commands.rb:55
+  railties (3.2.2) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.2) lib/rails/commands.rb:50
+  script/rails:6:in `require'
+  script/rails:6
+
+
+  Rendered /home/vinicius/.rvm/gems/ruby-1.9.3-p327@global/gems/actionpack-3.2.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.7ms)
+  Rendered /home/vinicius/.rvm/gems/ruby-1.9.3-p327@global/gems/actionpack-3.2.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.6ms)
+  Rendered /home/vinicius/.rvm/gems/ruby-1.9.3-p327@global/gems/actionpack-3.2.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (5.6ms)
+
+
+Started GET "/tweets/new" for 127.0.0.1 at Sun Jan 20 19:38:26 -0200 2013
+
+SyntaxError (/home/vinicius/projects/anatomybackbonejs/app/controllers/tweets_controller.rb:40: syntax error, unexpected ':', expecting '}'
+      format.json { render json: @tweet }
+                                ^
+/home/vinicius/projects/anatomybackbonejs/app/controllers/tweets_controller.rb:49: syntax error, unexpected ':', expecting '}'
+... { redirect_to @tweet, notice: 'tweet was successfully creat...
+                              ^
+/home/vinicius/projects/anatomybackbonejs/app/controllers/tweets_controller.rb:50: syntax error, unexpected ':', expecting '}'
+...    format.json { render json: @tweet, status: :created, loc...
+                              ^
+/home/vinicius/projects/anatomybackbonejs/app/controllers/tweets_controller.rb:50: syntax error, unexpected ':', expecting '='
+...{ render json: @tweet, status: :created, location: @tweet }
+                              ^
+/home/vinicius/projects/anatomybackbonejs/app/controllers/tweets_controller.rb:52: syntax error, unexpected ':', expecting '}'
+        format.html { render action: "new" }
+                                    ^
+/home/vinicius/projects/anatomybackbonejs/app/controllers/tweets_controller.rb:53: syntax error, unexpected ':', expecting '}'
+...    format.json { render json: @tweet.errors, status: :unpro...
+                              ^
+/home/vinicius/projects/anatomybackbonejs/app/controllers/tweets_controller.rb:53: syntax error, unexpected ':', expecting '='
+...r json: @tweet.errors, status: :unprocessable_entity }
+                              ^):
+  activesupport (3.2.2) lib/active_support/dependencies.rb:469:in `load'
+  activesupport (3.2.2) lib/active_support/dependencies.rb:469:in `load_file'
+  activesupport (3.2.2) lib/active_support/dependencies.rb:639:in `new_constants_in'
+  activesupport (3.2.2) lib/active_support/dependencies.rb:468:in `load_file'
+  activesupport (3.2.2) lib/active_support/dependencies.rb:353:in `require_or_load'
+  activesupport (3.2.2) lib/active_support/dependencies.rb:502:in `load_missing_constant'
+  activesupport (3.2.2) lib/active_support/dependencies.rb:192:in `const_missing'
+  activesupport (3.2.2) lib/active_support/dependencies.rb:190:in `each'
+  activesupport (3.2.2) lib/active_support/dependencies.rb:190:in `const_missing'
+  activesupport (3.2.2) lib/active_support/inflector/methods.rb:218:in `constantize'
+  activesupport (3.2.2) lib/active_support/inflector/methods.rb:217:in `each'
+  activesupport (3.2.2) lib/active_support/inflector/methods.rb:217:in `constantize'
+  activesupport (3.2.2) lib/active_support/dependencies.rb:554:in `get'
+  actionpack (3.2.2) lib/action_dispatch/routing/route_set.rb:63:in `controller_reference'
+  actionpack (3.2.2) lib/action_dispatch/routing/route_set.rb:48:in `controller'
+  actionpack (3.2.2) lib/action_dispatch/routing/route_set.rb:26:in `call'
+  journey (1.0.3) lib/journey/router.rb:68:in `call'
+  journey (1.0.3) lib/journey/router.rb:56:in `each'
+  journey (1.0.3) lib/journey/router.rb:56:in `call'
+  actionpack (3.2.2) lib/action_dispatch/routing/route_set.rb:594:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  rack (1.4.1) lib/rack/etag.rb:23:in `call'
+  rack (1.4.1) lib/rack/conditionalget.rb:25:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/head.rb:14:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/flash.rb:242:in `call'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:205:in `context'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:200:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/cookies.rb:338:in `call'
+  activerecord (3.2.2) lib/active_record/query_cache.rb:64:in `call'
+  activerecord (3.2.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:443:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/callbacks.rb:28:in `call'
+  activesupport (3.2.2) lib/active_support/callbacks.rb:405:in `_run__833935389__call__4__callbacks'
+  activesupport (3.2.2) lib/active_support/callbacks.rb:405:in `send'
+  activesupport (3.2.2) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.2) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.2) lib/active_support/callbacks.rb:81:in `send'
+  activesupport (3.2.2) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.2) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.2) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.2) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.2) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/static.rb:61:in `call'
+  railties (3.2.2) lib/rails/engine.rb:479:in `call'
+  railties (3.2.2) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.2) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+  rack (1.4.1) lib/rack/handler/webrick.rb:13:in `run'
+  rack (1.4.1) lib/rack/server.rb:265:in `start'
+  railties (3.2.2) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.2) lib/rails/commands.rb:55
+  railties (3.2.2) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.2) lib/rails/commands.rb:50
+  script/rails:6:in `require'
+  script/rails:6
+
+
+  Rendered /home/vinicius/.rvm/gems/ruby-1.9.3-p327@global/gems/actionpack-3.2.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.8ms)
+  Rendered /home/vinicius/.rvm/gems/ruby-1.9.3-p327@global/gems/actionpack-3.2.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /home/vinicius/.rvm/gems/ruby-1.9.3-p327@global/gems/actionpack-3.2.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (5.9ms)
+
+
+Started GET "/tweets/new" for 127.0.0.1 at Sun Jan 20 19:39:10 -0200 2013
+
+SyntaxError (/home/vinicius/projects/anatomybackbonejs/app/controllers/tweets_controller.rb:40: syntax error, unexpected ':', expecting '}'
+      format.json { render json: @tweet }
+                                ^
+/home/vinicius/projects/anatomybackbonejs/app/controllers/tweets_controller.rb:49: syntax error, unexpected ':', expecting '}'
+... { redirect_to @tweet, notice: 'tweet was successfully creat...
+                              ^
+/home/vinicius/projects/anatomybackbonejs/app/controllers/tweets_controller.rb:50: syntax error, unexpected ':', expecting '}'
+...    format.json { render json: @tweet, status: :created, loc...
+                              ^
+/home/vinicius/projects/anatomybackbonejs/app/controllers/tweets_controller.rb:50: syntax error, unexpected ':', expecting '='
+...{ render json: @tweet, status: :created, location: @tweet }
+                              ^
+/home/vinicius/projects/anatomybackbonejs/app/controllers/tweets_controller.rb:52: syntax error, unexpected ':', expecting '}'
+        format.html { render action: "new" }
+                                    ^
+/home/vinicius/projects/anatomybackbonejs/app/controllers/tweets_controller.rb:53: syntax error, unexpected ':', expecting '}'
+...    format.json { render json: @tweet.errors, status: :unpro...
+                              ^
+/home/vinicius/projects/anatomybackbonejs/app/controllers/tweets_controller.rb:53: syntax error, unexpected ':', expecting '='
+...r json: @tweet.errors, status: :unprocessable_entity }
+                              ^):
+  activesupport (3.2.2) lib/active_support/dependencies.rb:469:in `load'
+  activesupport (3.2.2) lib/active_support/dependencies.rb:469:in `load_file'
+  activesupport (3.2.2) lib/active_support/dependencies.rb:639:in `new_constants_in'
+  activesupport (3.2.2) lib/active_support/dependencies.rb:468:in `load_file'
+  activesupport (3.2.2) lib/active_support/dependencies.rb:353:in `require_or_load'
+  activesupport (3.2.2) lib/active_support/dependencies.rb:502:in `load_missing_constant'
+  activesupport (3.2.2) lib/active_support/dependencies.rb:192:in `const_missing'
+  activesupport (3.2.2) lib/active_support/dependencies.rb:190:in `each'
+  activesupport (3.2.2) lib/active_support/dependencies.rb:190:in `const_missing'
+  activesupport (3.2.2) lib/active_support/inflector/methods.rb:218:in `constantize'
+  activesupport (3.2.2) lib/active_support/inflector/methods.rb:217:in `each'
+  activesupport (3.2.2) lib/active_support/inflector/methods.rb:217:in `constantize'
+  activesupport (3.2.2) lib/active_support/dependencies.rb:554:in `get'
+  actionpack (3.2.2) lib/action_dispatch/routing/route_set.rb:63:in `controller_reference'
+  actionpack (3.2.2) lib/action_dispatch/routing/route_set.rb:48:in `controller'
+  actionpack (3.2.2) lib/action_dispatch/routing/route_set.rb:26:in `call'
+  journey (1.0.3) lib/journey/router.rb:68:in `call'
+  journey (1.0.3) lib/journey/router.rb:56:in `each'
+  journey (1.0.3) lib/journey/router.rb:56:in `call'
+  actionpack (3.2.2) lib/action_dispatch/routing/route_set.rb:594:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  rack (1.4.1) lib/rack/etag.rb:23:in `call'
+  rack (1.4.1) lib/rack/conditionalget.rb:25:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/head.rb:14:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/flash.rb:242:in `call'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:205:in `context'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:200:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/cookies.rb:338:in `call'
+  activerecord (3.2.2) lib/active_record/query_cache.rb:64:in `call'
+  activerecord (3.2.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:443:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/callbacks.rb:28:in `call'
+  activesupport (3.2.2) lib/active_support/callbacks.rb:405:in `_run__833935389__call__4__callbacks'
+  activesupport (3.2.2) lib/active_support/callbacks.rb:405:in `send'
+  activesupport (3.2.2) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.2) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.2) lib/active_support/callbacks.rb:81:in `send'
+  activesupport (3.2.2) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.2) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.2) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.2) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.2) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/static.rb:61:in `call'
+  railties (3.2.2) lib/rails/engine.rb:479:in `call'
+  railties (3.2.2) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.2) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+  rack (1.4.1) lib/rack/handler/webrick.rb:13:in `run'
+  rack (1.4.1) lib/rack/server.rb:265:in `start'
+  railties (3.2.2) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.2) lib/rails/commands.rb:55
+  railties (3.2.2) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.2) lib/rails/commands.rb:50
+  script/rails:6:in `require'
+  script/rails:6
+
+
+  Rendered /home/vinicius/.rvm/gems/ruby-1.9.3-p327@global/gems/actionpack-3.2.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered /home/vinicius/.rvm/gems/ruby-1.9.3-p327@global/gems/actionpack-3.2.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /home/vinicius/.rvm/gems/ruby-1.9.3-p327@global/gems/actionpack-3.2.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (39.9ms)
+
+
+Started GET "/tweets/new" for 127.0.0.1 at Sun Jan 20 19:39:11 -0200 2013
+
+SyntaxError (/home/vinicius/projects/anatomybackbonejs/app/controllers/tweets_controller.rb:40: syntax error, unexpected ':', expecting '}'
+      format.json { render json: @tweet }
+                                ^
+/home/vinicius/projects/anatomybackbonejs/app/controllers/tweets_controller.rb:49: syntax error, unexpected ':', expecting '}'
+... { redirect_to @tweet, notice: 'tweet was successfully creat...
+                              ^
+/home/vinicius/projects/anatomybackbonejs/app/controllers/tweets_controller.rb:50: syntax error, unexpected ':', expecting '}'
+...    format.json { render json: @tweet, status: :created, loc...
+                              ^
+/home/vinicius/projects/anatomybackbonejs/app/controllers/tweets_controller.rb:50: syntax error, unexpected ':', expecting '='
+...{ render json: @tweet, status: :created, location: @tweet }
+                              ^
+/home/vinicius/projects/anatomybackbonejs/app/controllers/tweets_controller.rb:52: syntax error, unexpected ':', expecting '}'
+        format.html { render action: "new" }
+                                    ^
+/home/vinicius/projects/anatomybackbonejs/app/controllers/tweets_controller.rb:53: syntax error, unexpected ':', expecting '}'
+...    format.json { render json: @tweet.errors, status: :unpro...
+                              ^
+/home/vinicius/projects/anatomybackbonejs/app/controllers/tweets_controller.rb:53: syntax error, unexpected ':', expecting '='
+...r json: @tweet.errors, status: :unprocessable_entity }
+                              ^):
+  activesupport (3.2.2) lib/active_support/dependencies.rb:469:in `load'
+  activesupport (3.2.2) lib/active_support/dependencies.rb:469:in `load_file'
+  activesupport (3.2.2) lib/active_support/dependencies.rb:639:in `new_constants_in'
+  activesupport (3.2.2) lib/active_support/dependencies.rb:468:in `load_file'
+  activesupport (3.2.2) lib/active_support/dependencies.rb:353:in `require_or_load'
+  activesupport (3.2.2) lib/active_support/dependencies.rb:502:in `load_missing_constant'
+  activesupport (3.2.2) lib/active_support/dependencies.rb:192:in `const_missing'
+  activesupport (3.2.2) lib/active_support/dependencies.rb:190:in `each'
+  activesupport (3.2.2) lib/active_support/dependencies.rb:190:in `const_missing'
+  activesupport (3.2.2) lib/active_support/inflector/methods.rb:218:in `constantize'
+  activesupport (3.2.2) lib/active_support/inflector/methods.rb:217:in `each'
+  activesupport (3.2.2) lib/active_support/inflector/methods.rb:217:in `constantize'
+  activesupport (3.2.2) lib/active_support/dependencies.rb:554:in `get'
+  actionpack (3.2.2) lib/action_dispatch/routing/route_set.rb:63:in `controller_reference'
+  actionpack (3.2.2) lib/action_dispatch/routing/route_set.rb:48:in `controller'
+  actionpack (3.2.2) lib/action_dispatch/routing/route_set.rb:26:in `call'
+  journey (1.0.3) lib/journey/router.rb:68:in `call'
+  journey (1.0.3) lib/journey/router.rb:56:in `each'
+  journey (1.0.3) lib/journey/router.rb:56:in `call'
+  actionpack (3.2.2) lib/action_dispatch/routing/route_set.rb:594:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  rack (1.4.1) lib/rack/etag.rb:23:in `call'
+  rack (1.4.1) lib/rack/conditionalget.rb:25:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/head.rb:14:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/flash.rb:242:in `call'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:205:in `context'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:200:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/cookies.rb:338:in `call'
+  activerecord (3.2.2) lib/active_record/query_cache.rb:64:in `call'
+  activerecord (3.2.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:443:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/callbacks.rb:28:in `call'
+  activesupport (3.2.2) lib/active_support/callbacks.rb:405:in `_run__833935389__call__4__callbacks'
+  activesupport (3.2.2) lib/active_support/callbacks.rb:405:in `send'
+  activesupport (3.2.2) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.2) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.2) lib/active_support/callbacks.rb:81:in `send'
+  activesupport (3.2.2) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.2) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.2) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.2) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.2) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/static.rb:61:in `call'
+  railties (3.2.2) lib/rails/engine.rb:479:in `call'
+  railties (3.2.2) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.2) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+  rack (1.4.1) lib/rack/handler/webrick.rb:13:in `run'
+  rack (1.4.1) lib/rack/server.rb:265:in `start'
+  railties (3.2.2) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.2) lib/rails/commands.rb:55
+  railties (3.2.2) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.2) lib/rails/commands.rb:50
+  script/rails:6:in `require'
+  script/rails:6
+
+
+  Rendered /home/vinicius/.rvm/gems/ruby-1.9.3-p327@global/gems/actionpack-3.2.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.8ms)
+  Rendered /home/vinicius/.rvm/gems/ruby-1.9.3-p327@global/gems/actionpack-3.2.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /home/vinicius/.rvm/gems/ruby-1.9.3-p327@global/gems/actionpack-3.2.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (6.3ms)
+
+
+Started GET "/tweets/new" for 127.0.0.1 at Sun Jan 20 19:39:11 -0200 2013
+
+SyntaxError (/home/vinicius/projects/anatomybackbonejs/app/controllers/tweets_controller.rb:40: syntax error, unexpected ':', expecting '}'
+      format.json { render json: @tweet }
+                                ^
+/home/vinicius/projects/anatomybackbonejs/app/controllers/tweets_controller.rb:49: syntax error, unexpected ':', expecting '}'
+... { redirect_to @tweet, notice: 'tweet was successfully creat...
+                              ^
+/home/vinicius/projects/anatomybackbonejs/app/controllers/tweets_controller.rb:50: syntax error, unexpected ':', expecting '}'
+...    format.json { render json: @tweet, status: :created, loc...
+                              ^
+/home/vinicius/projects/anatomybackbonejs/app/controllers/tweets_controller.rb:50: syntax error, unexpected ':', expecting '='
+...{ render json: @tweet, status: :created, location: @tweet }
+                              ^
+/home/vinicius/projects/anatomybackbonejs/app/controllers/tweets_controller.rb:52: syntax error, unexpected ':', expecting '}'
+        format.html { render action: "new" }
+                                    ^
+/home/vinicius/projects/anatomybackbonejs/app/controllers/tweets_controller.rb:53: syntax error, unexpected ':', expecting '}'
+...    format.json { render json: @tweet.errors, status: :unpro...
+                              ^
+/home/vinicius/projects/anatomybackbonejs/app/controllers/tweets_controller.rb:53: syntax error, unexpected ':', expecting '='
+...r json: @tweet.errors, status: :unprocessable_entity }
+                              ^):
+  activesupport (3.2.2) lib/active_support/dependencies.rb:469:in `load'
+  activesupport (3.2.2) lib/active_support/dependencies.rb:469:in `load_file'
+  activesupport (3.2.2) lib/active_support/dependencies.rb:639:in `new_constants_in'
+  activesupport (3.2.2) lib/active_support/dependencies.rb:468:in `load_file'
+  activesupport (3.2.2) lib/active_support/dependencies.rb:353:in `require_or_load'
+  activesupport (3.2.2) lib/active_support/dependencies.rb:502:in `load_missing_constant'
+  activesupport (3.2.2) lib/active_support/dependencies.rb:192:in `const_missing'
+  activesupport (3.2.2) lib/active_support/dependencies.rb:190:in `each'
+  activesupport (3.2.2) lib/active_support/dependencies.rb:190:in `const_missing'
+  activesupport (3.2.2) lib/active_support/inflector/methods.rb:218:in `constantize'
+  activesupport (3.2.2) lib/active_support/inflector/methods.rb:217:in `each'
+  activesupport (3.2.2) lib/active_support/inflector/methods.rb:217:in `constantize'
+  activesupport (3.2.2) lib/active_support/dependencies.rb:554:in `get'
+  actionpack (3.2.2) lib/action_dispatch/routing/route_set.rb:63:in `controller_reference'
+  actionpack (3.2.2) lib/action_dispatch/routing/route_set.rb:48:in `controller'
+  actionpack (3.2.2) lib/action_dispatch/routing/route_set.rb:26:in `call'
+  journey (1.0.3) lib/journey/router.rb:68:in `call'
+  journey (1.0.3) lib/journey/router.rb:56:in `each'
+  journey (1.0.3) lib/journey/router.rb:56:in `call'
+  actionpack (3.2.2) lib/action_dispatch/routing/route_set.rb:594:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  rack (1.4.1) lib/rack/etag.rb:23:in `call'
+  rack (1.4.1) lib/rack/conditionalget.rb:25:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/head.rb:14:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/flash.rb:242:in `call'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:205:in `context'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:200:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/cookies.rb:338:in `call'
+  activerecord (3.2.2) lib/active_record/query_cache.rb:64:in `call'
+  activerecord (3.2.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:443:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/callbacks.rb:28:in `call'
+  activesupport (3.2.2) lib/active_support/callbacks.rb:405:in `_run__833935389__call__4__callbacks'
+  activesupport (3.2.2) lib/active_support/callbacks.rb:405:in `send'
+  activesupport (3.2.2) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.2) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.2) lib/active_support/callbacks.rb:81:in `send'
+  activesupport (3.2.2) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.2) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.2) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.2) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.2) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/static.rb:61:in `call'
+  railties (3.2.2) lib/rails/engine.rb:479:in `call'
+  railties (3.2.2) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.2) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+  rack (1.4.1) lib/rack/handler/webrick.rb:13:in `run'
+  rack (1.4.1) lib/rack/server.rb:265:in `start'
+  railties (3.2.2) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.2) lib/rails/commands.rb:55
+  railties (3.2.2) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.2) lib/rails/commands.rb:50
+  script/rails:6:in `require'
+  script/rails:6
+
+
+  Rendered /home/vinicius/.rvm/gems/ruby-1.9.3-p327@global/gems/actionpack-3.2.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.8ms)
+  Rendered /home/vinicius/.rvm/gems/ruby-1.9.3-p327@global/gems/actionpack-3.2.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /home/vinicius/.rvm/gems/ruby-1.9.3-p327@global/gems/actionpack-3.2.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (6.2ms)
+
+
+Started GET "/tweets/new" for 127.0.0.1 at Sun Jan 20 19:39:12 -0200 2013
+
+SyntaxError (/home/vinicius/projects/anatomybackbonejs/app/controllers/tweets_controller.rb:40: syntax error, unexpected ':', expecting '}'
+      format.json { render json: @tweet }
+                                ^
+/home/vinicius/projects/anatomybackbonejs/app/controllers/tweets_controller.rb:49: syntax error, unexpected ':', expecting '}'
+... { redirect_to @tweet, notice: 'tweet was successfully creat...
+                              ^
+/home/vinicius/projects/anatomybackbonejs/app/controllers/tweets_controller.rb:50: syntax error, unexpected ':', expecting '}'
+...    format.json { render json: @tweet, status: :created, loc...
+                              ^
+/home/vinicius/projects/anatomybackbonejs/app/controllers/tweets_controller.rb:50: syntax error, unexpected ':', expecting '='
+...{ render json: @tweet, status: :created, location: @tweet }
+                              ^
+/home/vinicius/projects/anatomybackbonejs/app/controllers/tweets_controller.rb:52: syntax error, unexpected ':', expecting '}'
+        format.html { render action: "new" }
+                                    ^
+/home/vinicius/projects/anatomybackbonejs/app/controllers/tweets_controller.rb:53: syntax error, unexpected ':', expecting '}'
+...    format.json { render json: @tweet.errors, status: :unpro...
+                              ^
+/home/vinicius/projects/anatomybackbonejs/app/controllers/tweets_controller.rb:53: syntax error, unexpected ':', expecting '='
+...r json: @tweet.errors, status: :unprocessable_entity }
+                              ^):
+  activesupport (3.2.2) lib/active_support/dependencies.rb:469:in `load'
+  activesupport (3.2.2) lib/active_support/dependencies.rb:469:in `load_file'
+  activesupport (3.2.2) lib/active_support/dependencies.rb:639:in `new_constants_in'
+  activesupport (3.2.2) lib/active_support/dependencies.rb:468:in `load_file'
+  activesupport (3.2.2) lib/active_support/dependencies.rb:353:in `require_or_load'
+  activesupport (3.2.2) lib/active_support/dependencies.rb:502:in `load_missing_constant'
+  activesupport (3.2.2) lib/active_support/dependencies.rb:192:in `const_missing'
+  activesupport (3.2.2) lib/active_support/dependencies.rb:190:in `each'
+  activesupport (3.2.2) lib/active_support/dependencies.rb:190:in `const_missing'
+  activesupport (3.2.2) lib/active_support/inflector/methods.rb:218:in `constantize'
+  activesupport (3.2.2) lib/active_support/inflector/methods.rb:217:in `each'
+  activesupport (3.2.2) lib/active_support/inflector/methods.rb:217:in `constantize'
+  activesupport (3.2.2) lib/active_support/dependencies.rb:554:in `get'
+  actionpack (3.2.2) lib/action_dispatch/routing/route_set.rb:63:in `controller_reference'
+  actionpack (3.2.2) lib/action_dispatch/routing/route_set.rb:48:in `controller'
+  actionpack (3.2.2) lib/action_dispatch/routing/route_set.rb:26:in `call'
+  journey (1.0.3) lib/journey/router.rb:68:in `call'
+  journey (1.0.3) lib/journey/router.rb:56:in `each'
+  journey (1.0.3) lib/journey/router.rb:56:in `call'
+  actionpack (3.2.2) lib/action_dispatch/routing/route_set.rb:594:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  rack (1.4.1) lib/rack/etag.rb:23:in `call'
+  rack (1.4.1) lib/rack/conditionalget.rb:25:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/head.rb:14:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/flash.rb:242:in `call'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:205:in `context'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:200:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/cookies.rb:338:in `call'
+  activerecord (3.2.2) lib/active_record/query_cache.rb:64:in `call'
+  activerecord (3.2.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:443:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/callbacks.rb:28:in `call'
+  activesupport (3.2.2) lib/active_support/callbacks.rb:405:in `_run__833935389__call__4__callbacks'
+  activesupport (3.2.2) lib/active_support/callbacks.rb:405:in `send'
+  activesupport (3.2.2) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.2) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.2) lib/active_support/callbacks.rb:81:in `send'
+  activesupport (3.2.2) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.2) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.2) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.2) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.2) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/static.rb:61:in `call'
+  railties (3.2.2) lib/rails/engine.rb:479:in `call'
+  railties (3.2.2) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.2) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+  rack (1.4.1) lib/rack/handler/webrick.rb:13:in `run'
+  rack (1.4.1) lib/rack/server.rb:265:in `start'
+  railties (3.2.2) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.2) lib/rails/commands.rb:55
+  railties (3.2.2) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.2) lib/rails/commands.rb:50
+  script/rails:6:in `require'
+  script/rails:6
+
+
+  Rendered /home/vinicius/.rvm/gems/ruby-1.9.3-p327@global/gems/actionpack-3.2.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.8ms)
+  Rendered /home/vinicius/.rvm/gems/ruby-1.9.3-p327@global/gems/actionpack-3.2.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /home/vinicius/.rvm/gems/ruby-1.9.3-p327@global/gems/actionpack-3.2.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (6.2ms)
+
+
+Started GET "/tweets/new" for 127.0.0.1 at Sun Jan 20 19:39:12 -0200 2013
+
+SyntaxError (/home/vinicius/projects/anatomybackbonejs/app/controllers/tweets_controller.rb:40: syntax error, unexpected ':', expecting '}'
+      format.json { render json: @tweet }
+                                ^
+/home/vinicius/projects/anatomybackbonejs/app/controllers/tweets_controller.rb:49: syntax error, unexpected ':', expecting '}'
+... { redirect_to @tweet, notice: 'tweet was successfully creat...
+                              ^
+/home/vinicius/projects/anatomybackbonejs/app/controllers/tweets_controller.rb:50: syntax error, unexpected ':', expecting '}'
+...    format.json { render json: @tweet, status: :created, loc...
+                              ^
+/home/vinicius/projects/anatomybackbonejs/app/controllers/tweets_controller.rb:50: syntax error, unexpected ':', expecting '='
+...{ render json: @tweet, status: :created, location: @tweet }
+                              ^
+/home/vinicius/projects/anatomybackbonejs/app/controllers/tweets_controller.rb:52: syntax error, unexpected ':', expecting '}'
+        format.html { render action: "new" }
+                                    ^
+/home/vinicius/projects/anatomybackbonejs/app/controllers/tweets_controller.rb:53: syntax error, unexpected ':', expecting '}'
+...    format.json { render json: @tweet.errors, status: :unpro...
+                              ^
+/home/vinicius/projects/anatomybackbonejs/app/controllers/tweets_controller.rb:53: syntax error, unexpected ':', expecting '='
+...r json: @tweet.errors, status: :unprocessable_entity }
+                              ^):
+  activesupport (3.2.2) lib/active_support/dependencies.rb:469:in `load'
+  activesupport (3.2.2) lib/active_support/dependencies.rb:469:in `load_file'
+  activesupport (3.2.2) lib/active_support/dependencies.rb:639:in `new_constants_in'
+  activesupport (3.2.2) lib/active_support/dependencies.rb:468:in `load_file'
+  activesupport (3.2.2) lib/active_support/dependencies.rb:353:in `require_or_load'
+  activesupport (3.2.2) lib/active_support/dependencies.rb:502:in `load_missing_constant'
+  activesupport (3.2.2) lib/active_support/dependencies.rb:192:in `const_missing'
+  activesupport (3.2.2) lib/active_support/dependencies.rb:190:in `each'
+  activesupport (3.2.2) lib/active_support/dependencies.rb:190:in `const_missing'
+  activesupport (3.2.2) lib/active_support/inflector/methods.rb:218:in `constantize'
+  activesupport (3.2.2) lib/active_support/inflector/methods.rb:217:in `each'
+  activesupport (3.2.2) lib/active_support/inflector/methods.rb:217:in `constantize'
+  activesupport (3.2.2) lib/active_support/dependencies.rb:554:in `get'
+  actionpack (3.2.2) lib/action_dispatch/routing/route_set.rb:63:in `controller_reference'
+  actionpack (3.2.2) lib/action_dispatch/routing/route_set.rb:48:in `controller'
+  actionpack (3.2.2) lib/action_dispatch/routing/route_set.rb:26:in `call'
+  journey (1.0.3) lib/journey/router.rb:68:in `call'
+  journey (1.0.3) lib/journey/router.rb:56:in `each'
+  journey (1.0.3) lib/journey/router.rb:56:in `call'
+  actionpack (3.2.2) lib/action_dispatch/routing/route_set.rb:594:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  rack (1.4.1) lib/rack/etag.rb:23:in `call'
+  rack (1.4.1) lib/rack/conditionalget.rb:25:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/head.rb:14:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/flash.rb:242:in `call'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:205:in `context'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:200:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/cookies.rb:338:in `call'
+  activerecord (3.2.2) lib/active_record/query_cache.rb:64:in `call'
+  activerecord (3.2.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:443:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/callbacks.rb:28:in `call'
+  activesupport (3.2.2) lib/active_support/callbacks.rb:405:in `_run__833935389__call__4__callbacks'
+  activesupport (3.2.2) lib/active_support/callbacks.rb:405:in `send'
+  activesupport (3.2.2) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.2) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.2) lib/active_support/callbacks.rb:81:in `send'
+  activesupport (3.2.2) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.2) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.2) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.2) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.2) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/static.rb:61:in `call'
+  railties (3.2.2) lib/rails/engine.rb:479:in `call'
+  railties (3.2.2) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.2) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+  rack (1.4.1) lib/rack/handler/webrick.rb:13:in `run'
+  rack (1.4.1) lib/rack/server.rb:265:in `start'
+  railties (3.2.2) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.2) lib/rails/commands.rb:55
+  railties (3.2.2) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.2) lib/rails/commands.rb:50
+  script/rails:6:in `require'
+  script/rails:6
+
+
+  Rendered /home/vinicius/.rvm/gems/ruby-1.9.3-p327@global/gems/actionpack-3.2.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.7ms)
+  Rendered /home/vinicius/.rvm/gems/ruby-1.9.3-p327@global/gems/actionpack-3.2.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /home/vinicius/.rvm/gems/ruby-1.9.3-p327@global/gems/actionpack-3.2.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (5.8ms)
+
+
+Started GET "/tweets/new" for 127.0.0.1 at Sun Jan 20 19:39:12 -0200 2013
+
+SyntaxError (/home/vinicius/projects/anatomybackbonejs/app/controllers/tweets_controller.rb:40: syntax error, unexpected ':', expecting '}'
+      format.json { render json: @tweet }
+                                ^
+/home/vinicius/projects/anatomybackbonejs/app/controllers/tweets_controller.rb:49: syntax error, unexpected ':', expecting '}'
+... { redirect_to @tweet, notice: 'tweet was successfully creat...
+                              ^
+/home/vinicius/projects/anatomybackbonejs/app/controllers/tweets_controller.rb:50: syntax error, unexpected ':', expecting '}'
+...    format.json { render json: @tweet, status: :created, loc...
+                              ^
+/home/vinicius/projects/anatomybackbonejs/app/controllers/tweets_controller.rb:50: syntax error, unexpected ':', expecting '='
+...{ render json: @tweet, status: :created, location: @tweet }
+                              ^
+/home/vinicius/projects/anatomybackbonejs/app/controllers/tweets_controller.rb:52: syntax error, unexpected ':', expecting '}'
+        format.html { render action: "new" }
+                                    ^
+/home/vinicius/projects/anatomybackbonejs/app/controllers/tweets_controller.rb:53: syntax error, unexpected ':', expecting '}'
+...    format.json { render json: @tweet.errors, status: :unpro...
+                              ^
+/home/vinicius/projects/anatomybackbonejs/app/controllers/tweets_controller.rb:53: syntax error, unexpected ':', expecting '='
+...r json: @tweet.errors, status: :unprocessable_entity }
+                              ^):
+  activesupport (3.2.2) lib/active_support/dependencies.rb:469:in `load'
+  activesupport (3.2.2) lib/active_support/dependencies.rb:469:in `load_file'
+  activesupport (3.2.2) lib/active_support/dependencies.rb:639:in `new_constants_in'
+  activesupport (3.2.2) lib/active_support/dependencies.rb:468:in `load_file'
+  activesupport (3.2.2) lib/active_support/dependencies.rb:353:in `require_or_load'
+  activesupport (3.2.2) lib/active_support/dependencies.rb:502:in `load_missing_constant'
+  activesupport (3.2.2) lib/active_support/dependencies.rb:192:in `const_missing'
+  activesupport (3.2.2) lib/active_support/dependencies.rb:190:in `each'
+  activesupport (3.2.2) lib/active_support/dependencies.rb:190:in `const_missing'
+  activesupport (3.2.2) lib/active_support/inflector/methods.rb:218:in `constantize'
+  activesupport (3.2.2) lib/active_support/inflector/methods.rb:217:in `each'
+  activesupport (3.2.2) lib/active_support/inflector/methods.rb:217:in `constantize'
+  activesupport (3.2.2) lib/active_support/dependencies.rb:554:in `get'
+  actionpack (3.2.2) lib/action_dispatch/routing/route_set.rb:63:in `controller_reference'
+  actionpack (3.2.2) lib/action_dispatch/routing/route_set.rb:48:in `controller'
+  actionpack (3.2.2) lib/action_dispatch/routing/route_set.rb:26:in `call'
+  journey (1.0.3) lib/journey/router.rb:68:in `call'
+  journey (1.0.3) lib/journey/router.rb:56:in `each'
+  journey (1.0.3) lib/journey/router.rb:56:in `call'
+  actionpack (3.2.2) lib/action_dispatch/routing/route_set.rb:594:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  rack (1.4.1) lib/rack/etag.rb:23:in `call'
+  rack (1.4.1) lib/rack/conditionalget.rb:25:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/head.rb:14:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/flash.rb:242:in `call'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:205:in `context'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:200:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/cookies.rb:338:in `call'
+  activerecord (3.2.2) lib/active_record/query_cache.rb:64:in `call'
+  activerecord (3.2.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:443:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/callbacks.rb:28:in `call'
+  activesupport (3.2.2) lib/active_support/callbacks.rb:405:in `_run__833935389__call__4__callbacks'
+  activesupport (3.2.2) lib/active_support/callbacks.rb:405:in `send'
+  activesupport (3.2.2) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.2) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.2) lib/active_support/callbacks.rb:81:in `send'
+  activesupport (3.2.2) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.2) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.2) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.2) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.2) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/static.rb:61:in `call'
+  railties (3.2.2) lib/rails/engine.rb:479:in `call'
+  railties (3.2.2) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.2) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+  rack (1.4.1) lib/rack/handler/webrick.rb:13:in `run'
+  rack (1.4.1) lib/rack/server.rb:265:in `start'
+  railties (3.2.2) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.2) lib/rails/commands.rb:55
+  railties (3.2.2) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.2) lib/rails/commands.rb:50
+  script/rails:6:in `require'
+  script/rails:6
+
+
+  Rendered /home/vinicius/.rvm/gems/ruby-1.9.3-p327@global/gems/actionpack-3.2.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.8ms)
+  Rendered /home/vinicius/.rvm/gems/ruby-1.9.3-p327@global/gems/actionpack-3.2.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+  Rendered /home/vinicius/.rvm/gems/ruby-1.9.3-p327@global/gems/actionpack-3.2.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (7.1ms)
+
+
+Started GET "/tweets/new" for 127.0.0.1 at Sun Jan 20 19:39:12 -0200 2013
+
+SyntaxError (/home/vinicius/projects/anatomybackbonejs/app/controllers/tweets_controller.rb:40: syntax error, unexpected ':', expecting '}'
+      format.json { render json: @tweet }
+                                ^
+/home/vinicius/projects/anatomybackbonejs/app/controllers/tweets_controller.rb:49: syntax error, unexpected ':', expecting '}'
+... { redirect_to @tweet, notice: 'tweet was successfully creat...
+                              ^
+/home/vinicius/projects/anatomybackbonejs/app/controllers/tweets_controller.rb:50: syntax error, unexpected ':', expecting '}'
+...    format.json { render json: @tweet, status: :created, loc...
+                              ^
+/home/vinicius/projects/anatomybackbonejs/app/controllers/tweets_controller.rb:50: syntax error, unexpected ':', expecting '='
+...{ render json: @tweet, status: :created, location: @tweet }
+                              ^
+/home/vinicius/projects/anatomybackbonejs/app/controllers/tweets_controller.rb:52: syntax error, unexpected ':', expecting '}'
+        format.html { render action: "new" }
+                                    ^
+/home/vinicius/projects/anatomybackbonejs/app/controllers/tweets_controller.rb:53: syntax error, unexpected ':', expecting '}'
+...    format.json { render json: @tweet.errors, status: :unpro...
+                              ^
+/home/vinicius/projects/anatomybackbonejs/app/controllers/tweets_controller.rb:53: syntax error, unexpected ':', expecting '='
+...r json: @tweet.errors, status: :unprocessable_entity }
+                              ^):
+  activesupport (3.2.2) lib/active_support/dependencies.rb:469:in `load'
+  activesupport (3.2.2) lib/active_support/dependencies.rb:469:in `load_file'
+  activesupport (3.2.2) lib/active_support/dependencies.rb:639:in `new_constants_in'
+  activesupport (3.2.2) lib/active_support/dependencies.rb:468:in `load_file'
+  activesupport (3.2.2) lib/active_support/dependencies.rb:353:in `require_or_load'
+  activesupport (3.2.2) lib/active_support/dependencies.rb:502:in `load_missing_constant'
+  activesupport (3.2.2) lib/active_support/dependencies.rb:192:in `const_missing'
+  activesupport (3.2.2) lib/active_support/dependencies.rb:190:in `each'
+  activesupport (3.2.2) lib/active_support/dependencies.rb:190:in `const_missing'
+  activesupport (3.2.2) lib/active_support/inflector/methods.rb:218:in `constantize'
+  activesupport (3.2.2) lib/active_support/inflector/methods.rb:217:in `each'
+  activesupport (3.2.2) lib/active_support/inflector/methods.rb:217:in `constantize'
+  activesupport (3.2.2) lib/active_support/dependencies.rb:554:in `get'
+  actionpack (3.2.2) lib/action_dispatch/routing/route_set.rb:63:in `controller_reference'
+  actionpack (3.2.2) lib/action_dispatch/routing/route_set.rb:48:in `controller'
+  actionpack (3.2.2) lib/action_dispatch/routing/route_set.rb:26:in `call'
+  journey (1.0.3) lib/journey/router.rb:68:in `call'
+  journey (1.0.3) lib/journey/router.rb:56:in `each'
+  journey (1.0.3) lib/journey/router.rb:56:in `call'
+  actionpack (3.2.2) lib/action_dispatch/routing/route_set.rb:594:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  rack (1.4.1) lib/rack/etag.rb:23:in `call'
+  rack (1.4.1) lib/rack/conditionalget.rb:25:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/head.rb:14:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/flash.rb:242:in `call'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:205:in `context'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:200:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/cookies.rb:338:in `call'
+  activerecord (3.2.2) lib/active_record/query_cache.rb:64:in `call'
+  activerecord (3.2.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:443:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/callbacks.rb:28:in `call'
+  activesupport (3.2.2) lib/active_support/callbacks.rb:405:in `_run__833935389__call__4__callbacks'
+  activesupport (3.2.2) lib/active_support/callbacks.rb:405:in `send'
+  activesupport (3.2.2) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.2) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.2) lib/active_support/callbacks.rb:81:in `send'
+  activesupport (3.2.2) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.2) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.2) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.2) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.2) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/static.rb:61:in `call'
+  railties (3.2.2) lib/rails/engine.rb:479:in `call'
+  railties (3.2.2) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.2) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+  rack (1.4.1) lib/rack/handler/webrick.rb:13:in `run'
+  rack (1.4.1) lib/rack/server.rb:265:in `start'
+  railties (3.2.2) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.2) lib/rails/commands.rb:55
+  railties (3.2.2) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.2) lib/rails/commands.rb:50
+  script/rails:6:in `require'
+  script/rails:6
+
+
+  Rendered /home/vinicius/.rvm/gems/ruby-1.9.3-p327@global/gems/actionpack-3.2.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.7ms)
+  Rendered /home/vinicius/.rvm/gems/ruby-1.9.3-p327@global/gems/actionpack-3.2.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.6ms)
+  Rendered /home/vinicius/.rvm/gems/ruby-1.9.3-p327@global/gems/actionpack-3.2.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (5.6ms)
+
+
+Started GET "/tweets/new" for 127.0.0.1 at Sun Jan 20 19:39:12 -0200 2013
+
+SyntaxError (/home/vinicius/projects/anatomybackbonejs/app/controllers/tweets_controller.rb:40: syntax error, unexpected ':', expecting '}'
+      format.json { render json: @tweet }
+                                ^
+/home/vinicius/projects/anatomybackbonejs/app/controllers/tweets_controller.rb:49: syntax error, unexpected ':', expecting '}'
+... { redirect_to @tweet, notice: 'tweet was successfully creat...
+                              ^
+/home/vinicius/projects/anatomybackbonejs/app/controllers/tweets_controller.rb:50: syntax error, unexpected ':', expecting '}'
+...    format.json { render json: @tweet, status: :created, loc...
+                              ^
+/home/vinicius/projects/anatomybackbonejs/app/controllers/tweets_controller.rb:50: syntax error, unexpected ':', expecting '='
+...{ render json: @tweet, status: :created, location: @tweet }
+                              ^
+/home/vinicius/projects/anatomybackbonejs/app/controllers/tweets_controller.rb:52: syntax error, unexpected ':', expecting '}'
+        format.html { render action: "new" }
+                                    ^
+/home/vinicius/projects/anatomybackbonejs/app/controllers/tweets_controller.rb:53: syntax error, unexpected ':', expecting '}'
+...    format.json { render json: @tweet.errors, status: :unpro...
+                              ^
+/home/vinicius/projects/anatomybackbonejs/app/controllers/tweets_controller.rb:53: syntax error, unexpected ':', expecting '='
+...r json: @tweet.errors, status: :unprocessable_entity }
+                              ^):
+  activesupport (3.2.2) lib/active_support/dependencies.rb:469:in `load'
+  activesupport (3.2.2) lib/active_support/dependencies.rb:469:in `load_file'
+  activesupport (3.2.2) lib/active_support/dependencies.rb:639:in `new_constants_in'
+  activesupport (3.2.2) lib/active_support/dependencies.rb:468:in `load_file'
+  activesupport (3.2.2) lib/active_support/dependencies.rb:353:in `require_or_load'
+  activesupport (3.2.2) lib/active_support/dependencies.rb:502:in `load_missing_constant'
+  activesupport (3.2.2) lib/active_support/dependencies.rb:192:in `const_missing'
+  activesupport (3.2.2) lib/active_support/dependencies.rb:190:in `each'
+  activesupport (3.2.2) lib/active_support/dependencies.rb:190:in `const_missing'
+  activesupport (3.2.2) lib/active_support/inflector/methods.rb:218:in `constantize'
+  activesupport (3.2.2) lib/active_support/inflector/methods.rb:217:in `each'
+  activesupport (3.2.2) lib/active_support/inflector/methods.rb:217:in `constantize'
+  activesupport (3.2.2) lib/active_support/dependencies.rb:554:in `get'
+  actionpack (3.2.2) lib/action_dispatch/routing/route_set.rb:63:in `controller_reference'
+  actionpack (3.2.2) lib/action_dispatch/routing/route_set.rb:48:in `controller'
+  actionpack (3.2.2) lib/action_dispatch/routing/route_set.rb:26:in `call'
+  journey (1.0.3) lib/journey/router.rb:68:in `call'
+  journey (1.0.3) lib/journey/router.rb:56:in `each'
+  journey (1.0.3) lib/journey/router.rb:56:in `call'
+  actionpack (3.2.2) lib/action_dispatch/routing/route_set.rb:594:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  rack (1.4.1) lib/rack/etag.rb:23:in `call'
+  rack (1.4.1) lib/rack/conditionalget.rb:25:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/head.rb:14:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/flash.rb:242:in `call'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:205:in `context'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:200:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/cookies.rb:338:in `call'
+  activerecord (3.2.2) lib/active_record/query_cache.rb:64:in `call'
+  activerecord (3.2.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:443:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/callbacks.rb:28:in `call'
+  activesupport (3.2.2) lib/active_support/callbacks.rb:405:in `_run__833935389__call__4__callbacks'
+  activesupport (3.2.2) lib/active_support/callbacks.rb:405:in `send'
+  activesupport (3.2.2) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.2) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.2) lib/active_support/callbacks.rb:81:in `send'
+  activesupport (3.2.2) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.2) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.2) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.2) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.2) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/static.rb:61:in `call'
+  railties (3.2.2) lib/rails/engine.rb:479:in `call'
+  railties (3.2.2) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.2) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+  rack (1.4.1) lib/rack/handler/webrick.rb:13:in `run'
+  rack (1.4.1) lib/rack/server.rb:265:in `start'
+  railties (3.2.2) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.2) lib/rails/commands.rb:55
+  railties (3.2.2) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.2) lib/rails/commands.rb:50
+  script/rails:6:in `require'
+  script/rails:6
+
+
+  Rendered /home/vinicius/.rvm/gems/ruby-1.9.3-p327@global/gems/actionpack-3.2.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.8ms)
+  Rendered /home/vinicius/.rvm/gems/ruby-1.9.3-p327@global/gems/actionpack-3.2.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.6ms)
+  Rendered /home/vinicius/.rvm/gems/ruby-1.9.3-p327@global/gems/actionpack-3.2.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (6.1ms)
+
+
+Started GET "/tweets/new" for 127.0.0.1 at Sun Jan 20 19:39:13 -0200 2013
+
+SyntaxError (/home/vinicius/projects/anatomybackbonejs/app/controllers/tweets_controller.rb:40: syntax error, unexpected ':', expecting '}'
+      format.json { render json: @tweet }
+                                ^
+/home/vinicius/projects/anatomybackbonejs/app/controllers/tweets_controller.rb:49: syntax error, unexpected ':', expecting '}'
+... { redirect_to @tweet, notice: 'tweet was successfully creat...
+                              ^
+/home/vinicius/projects/anatomybackbonejs/app/controllers/tweets_controller.rb:50: syntax error, unexpected ':', expecting '}'
+...    format.json { render json: @tweet, status: :created, loc...
+                              ^
+/home/vinicius/projects/anatomybackbonejs/app/controllers/tweets_controller.rb:50: syntax error, unexpected ':', expecting '='
+...{ render json: @tweet, status: :created, location: @tweet }
+                              ^
+/home/vinicius/projects/anatomybackbonejs/app/controllers/tweets_controller.rb:52: syntax error, unexpected ':', expecting '}'
+        format.html { render action: "new" }
+                                    ^
+/home/vinicius/projects/anatomybackbonejs/app/controllers/tweets_controller.rb:53: syntax error, unexpected ':', expecting '}'
+...    format.json { render json: @tweet.errors, status: :unpro...
+                              ^
+/home/vinicius/projects/anatomybackbonejs/app/controllers/tweets_controller.rb:53: syntax error, unexpected ':', expecting '='
+...r json: @tweet.errors, status: :unprocessable_entity }
+                              ^):
+  activesupport (3.2.2) lib/active_support/dependencies.rb:469:in `load'
+  activesupport (3.2.2) lib/active_support/dependencies.rb:469:in `load_file'
+  activesupport (3.2.2) lib/active_support/dependencies.rb:639:in `new_constants_in'
+  activesupport (3.2.2) lib/active_support/dependencies.rb:468:in `load_file'
+  activesupport (3.2.2) lib/active_support/dependencies.rb:353:in `require_or_load'
+  activesupport (3.2.2) lib/active_support/dependencies.rb:502:in `load_missing_constant'
+  activesupport (3.2.2) lib/active_support/dependencies.rb:192:in `const_missing'
+  activesupport (3.2.2) lib/active_support/dependencies.rb:190:in `each'
+  activesupport (3.2.2) lib/active_support/dependencies.rb:190:in `const_missing'
+  activesupport (3.2.2) lib/active_support/inflector/methods.rb:218:in `constantize'
+  activesupport (3.2.2) lib/active_support/inflector/methods.rb:217:in `each'
+  activesupport (3.2.2) lib/active_support/inflector/methods.rb:217:in `constantize'
+  activesupport (3.2.2) lib/active_support/dependencies.rb:554:in `get'
+  actionpack (3.2.2) lib/action_dispatch/routing/route_set.rb:63:in `controller_reference'
+  actionpack (3.2.2) lib/action_dispatch/routing/route_set.rb:48:in `controller'
+  actionpack (3.2.2) lib/action_dispatch/routing/route_set.rb:26:in `call'
+  journey (1.0.3) lib/journey/router.rb:68:in `call'
+  journey (1.0.3) lib/journey/router.rb:56:in `each'
+  journey (1.0.3) lib/journey/router.rb:56:in `call'
+  actionpack (3.2.2) lib/action_dispatch/routing/route_set.rb:594:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  rack (1.4.1) lib/rack/etag.rb:23:in `call'
+  rack (1.4.1) lib/rack/conditionalget.rb:25:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/head.rb:14:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/flash.rb:242:in `call'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:205:in `context'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:200:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/cookies.rb:338:in `call'
+  activerecord (3.2.2) lib/active_record/query_cache.rb:64:in `call'
+  activerecord (3.2.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:443:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/callbacks.rb:28:in `call'
+  activesupport (3.2.2) lib/active_support/callbacks.rb:405:in `_run__833935389__call__4__callbacks'
+  activesupport (3.2.2) lib/active_support/callbacks.rb:405:in `send'
+  activesupport (3.2.2) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.2) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.2) lib/active_support/callbacks.rb:81:in `send'
+  activesupport (3.2.2) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.2) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.2) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.2) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.2) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/static.rb:61:in `call'
+  railties (3.2.2) lib/rails/engine.rb:479:in `call'
+  railties (3.2.2) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.2) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+  rack (1.4.1) lib/rack/handler/webrick.rb:13:in `run'
+  rack (1.4.1) lib/rack/server.rb:265:in `start'
+  railties (3.2.2) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.2) lib/rails/commands.rb:55
+  railties (3.2.2) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.2) lib/rails/commands.rb:50
+  script/rails:6:in `require'
+  script/rails:6
+
+
+  Rendered /home/vinicius/.rvm/gems/ruby-1.9.3-p327@global/gems/actionpack-3.2.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.7ms)
+  Rendered /home/vinicius/.rvm/gems/ruby-1.9.3-p327@global/gems/actionpack-3.2.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.6ms)
+  Rendered /home/vinicius/.rvm/gems/ruby-1.9.3-p327@global/gems/actionpack-3.2.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (5.7ms)
+
+
+Started GET "/tweets/new" for 127.0.0.1 at Sun Jan 20 19:39:13 -0200 2013
+
+SyntaxError (/home/vinicius/projects/anatomybackbonejs/app/controllers/tweets_controller.rb:40: syntax error, unexpected ':', expecting '}'
+      format.json { render json: @tweet }
+                                ^
+/home/vinicius/projects/anatomybackbonejs/app/controllers/tweets_controller.rb:49: syntax error, unexpected ':', expecting '}'
+... { redirect_to @tweet, notice: 'tweet was successfully creat...
+                              ^
+/home/vinicius/projects/anatomybackbonejs/app/controllers/tweets_controller.rb:50: syntax error, unexpected ':', expecting '}'
+...    format.json { render json: @tweet, status: :created, loc...
+                              ^
+/home/vinicius/projects/anatomybackbonejs/app/controllers/tweets_controller.rb:50: syntax error, unexpected ':', expecting '='
+...{ render json: @tweet, status: :created, location: @tweet }
+                              ^
+/home/vinicius/projects/anatomybackbonejs/app/controllers/tweets_controller.rb:52: syntax error, unexpected ':', expecting '}'
+        format.html { render action: "new" }
+                                    ^
+/home/vinicius/projects/anatomybackbonejs/app/controllers/tweets_controller.rb:53: syntax error, unexpected ':', expecting '}'
+...    format.json { render json: @tweet.errors, status: :unpro...
+                              ^
+/home/vinicius/projects/anatomybackbonejs/app/controllers/tweets_controller.rb:53: syntax error, unexpected ':', expecting '='
+...r json: @tweet.errors, status: :unprocessable_entity }
+                              ^):
+  activesupport (3.2.2) lib/active_support/dependencies.rb:469:in `load'
+  activesupport (3.2.2) lib/active_support/dependencies.rb:469:in `load_file'
+  activesupport (3.2.2) lib/active_support/dependencies.rb:639:in `new_constants_in'
+  activesupport (3.2.2) lib/active_support/dependencies.rb:468:in `load_file'
+  activesupport (3.2.2) lib/active_support/dependencies.rb:353:in `require_or_load'
+  activesupport (3.2.2) lib/active_support/dependencies.rb:502:in `load_missing_constant'
+  activesupport (3.2.2) lib/active_support/dependencies.rb:192:in `const_missing'
+  activesupport (3.2.2) lib/active_support/dependencies.rb:190:in `each'
+  activesupport (3.2.2) lib/active_support/dependencies.rb:190:in `const_missing'
+  activesupport (3.2.2) lib/active_support/inflector/methods.rb:218:in `constantize'
+  activesupport (3.2.2) lib/active_support/inflector/methods.rb:217:in `each'
+  activesupport (3.2.2) lib/active_support/inflector/methods.rb:217:in `constantize'
+  activesupport (3.2.2) lib/active_support/dependencies.rb:554:in `get'
+  actionpack (3.2.2) lib/action_dispatch/routing/route_set.rb:63:in `controller_reference'
+  actionpack (3.2.2) lib/action_dispatch/routing/route_set.rb:48:in `controller'
+  actionpack (3.2.2) lib/action_dispatch/routing/route_set.rb:26:in `call'
+  journey (1.0.3) lib/journey/router.rb:68:in `call'
+  journey (1.0.3) lib/journey/router.rb:56:in `each'
+  journey (1.0.3) lib/journey/router.rb:56:in `call'
+  actionpack (3.2.2) lib/action_dispatch/routing/route_set.rb:594:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  rack (1.4.1) lib/rack/etag.rb:23:in `call'
+  rack (1.4.1) lib/rack/conditionalget.rb:25:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/head.rb:14:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/flash.rb:242:in `call'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:205:in `context'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:200:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/cookies.rb:338:in `call'
+  activerecord (3.2.2) lib/active_record/query_cache.rb:64:in `call'
+  activerecord (3.2.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:443:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/callbacks.rb:28:in `call'
+  activesupport (3.2.2) lib/active_support/callbacks.rb:405:in `_run__833935389__call__4__callbacks'
+  activesupport (3.2.2) lib/active_support/callbacks.rb:405:in `send'
+  activesupport (3.2.2) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.2) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.2) lib/active_support/callbacks.rb:81:in `send'
+  activesupport (3.2.2) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.2) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.2) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.2) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.2) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/static.rb:61:in `call'
+  railties (3.2.2) lib/rails/engine.rb:479:in `call'
+  railties (3.2.2) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.2) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+  rack (1.4.1) lib/rack/handler/webrick.rb:13:in `run'
+  rack (1.4.1) lib/rack/server.rb:265:in `start'
+  railties (3.2.2) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.2) lib/rails/commands.rb:55
+  railties (3.2.2) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.2) lib/rails/commands.rb:50
+  script/rails:6:in `require'
+  script/rails:6
+
+
+  Rendered /home/vinicius/.rvm/gems/ruby-1.9.3-p327@global/gems/actionpack-3.2.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered /home/vinicius/.rvm/gems/ruby-1.9.3-p327@global/gems/actionpack-3.2.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /home/vinicius/.rvm/gems/ruby-1.9.3-p327@global/gems/actionpack-3.2.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (6.5ms)
+
+
+Started GET "/tweets/new" for 127.0.0.1 at Sun Jan 20 19:39:13 -0200 2013
+
+SyntaxError (/home/vinicius/projects/anatomybackbonejs/app/controllers/tweets_controller.rb:40: syntax error, unexpected ':', expecting '}'
+      format.json { render json: @tweet }
+                                ^
+/home/vinicius/projects/anatomybackbonejs/app/controllers/tweets_controller.rb:49: syntax error, unexpected ':', expecting '}'
+... { redirect_to @tweet, notice: 'tweet was successfully creat...
+                              ^
+/home/vinicius/projects/anatomybackbonejs/app/controllers/tweets_controller.rb:50: syntax error, unexpected ':', expecting '}'
+...    format.json { render json: @tweet, status: :created, loc...
+                              ^
+/home/vinicius/projects/anatomybackbonejs/app/controllers/tweets_controller.rb:50: syntax error, unexpected ':', expecting '='
+...{ render json: @tweet, status: :created, location: @tweet }
+                              ^
+/home/vinicius/projects/anatomybackbonejs/app/controllers/tweets_controller.rb:52: syntax error, unexpected ':', expecting '}'
+        format.html { render action: "new" }
+                                    ^
+/home/vinicius/projects/anatomybackbonejs/app/controllers/tweets_controller.rb:53: syntax error, unexpected ':', expecting '}'
+...    format.json { render json: @tweet.errors, status: :unpro...
+                              ^
+/home/vinicius/projects/anatomybackbonejs/app/controllers/tweets_controller.rb:53: syntax error, unexpected ':', expecting '='
+...r json: @tweet.errors, status: :unprocessable_entity }
+                              ^):
+  activesupport (3.2.2) lib/active_support/dependencies.rb:469:in `load'
+  activesupport (3.2.2) lib/active_support/dependencies.rb:469:in `load_file'
+  activesupport (3.2.2) lib/active_support/dependencies.rb:639:in `new_constants_in'
+  activesupport (3.2.2) lib/active_support/dependencies.rb:468:in `load_file'
+  activesupport (3.2.2) lib/active_support/dependencies.rb:353:in `require_or_load'
+  activesupport (3.2.2) lib/active_support/dependencies.rb:502:in `load_missing_constant'
+  activesupport (3.2.2) lib/active_support/dependencies.rb:192:in `const_missing'
+  activesupport (3.2.2) lib/active_support/dependencies.rb:190:in `each'
+  activesupport (3.2.2) lib/active_support/dependencies.rb:190:in `const_missing'
+  activesupport (3.2.2) lib/active_support/inflector/methods.rb:218:in `constantize'
+  activesupport (3.2.2) lib/active_support/inflector/methods.rb:217:in `each'
+  activesupport (3.2.2) lib/active_support/inflector/methods.rb:217:in `constantize'
+  activesupport (3.2.2) lib/active_support/dependencies.rb:554:in `get'
+  actionpack (3.2.2) lib/action_dispatch/routing/route_set.rb:63:in `controller_reference'
+  actionpack (3.2.2) lib/action_dispatch/routing/route_set.rb:48:in `controller'
+  actionpack (3.2.2) lib/action_dispatch/routing/route_set.rb:26:in `call'
+  journey (1.0.3) lib/journey/router.rb:68:in `call'
+  journey (1.0.3) lib/journey/router.rb:56:in `each'
+  journey (1.0.3) lib/journey/router.rb:56:in `call'
+  actionpack (3.2.2) lib/action_dispatch/routing/route_set.rb:594:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  rack (1.4.1) lib/rack/etag.rb:23:in `call'
+  rack (1.4.1) lib/rack/conditionalget.rb:25:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/head.rb:14:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/flash.rb:242:in `call'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:205:in `context'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:200:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/cookies.rb:338:in `call'
+  activerecord (3.2.2) lib/active_record/query_cache.rb:64:in `call'
+  activerecord (3.2.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:443:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/callbacks.rb:28:in `call'
+  activesupport (3.2.2) lib/active_support/callbacks.rb:405:in `_run__833935389__call__4__callbacks'
+  activesupport (3.2.2) lib/active_support/callbacks.rb:405:in `send'
+  activesupport (3.2.2) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.2) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.2) lib/active_support/callbacks.rb:81:in `send'
+  activesupport (3.2.2) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.2) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.2) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.2) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.2) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/static.rb:61:in `call'
+  railties (3.2.2) lib/rails/engine.rb:479:in `call'
+  railties (3.2.2) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.2) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+  rack (1.4.1) lib/rack/handler/webrick.rb:13:in `run'
+  rack (1.4.1) lib/rack/server.rb:265:in `start'
+  railties (3.2.2) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.2) lib/rails/commands.rb:55
+  railties (3.2.2) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.2) lib/rails/commands.rb:50
+  script/rails:6:in `require'
+  script/rails:6
+
+
+  Rendered /home/vinicius/.rvm/gems/ruby-1.9.3-p327@global/gems/actionpack-3.2.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered /home/vinicius/.rvm/gems/ruby-1.9.3-p327@global/gems/actionpack-3.2.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /home/vinicius/.rvm/gems/ruby-1.9.3-p327@global/gems/actionpack-3.2.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (7.6ms)
+
+
+Started GET "/tweets/new" for 127.0.0.1 at Sun Jan 20 19:39:59 -0200 2013
+
+SyntaxError (/home/vinicius/projects/anatomybackbonejs/app/controllers/tweets_controller.rb:40: syntax error, unexpected ':', expecting '}'
+      format.json { render json: @tweet }
+                                ^
+/home/vinicius/projects/anatomybackbonejs/app/controllers/tweets_controller.rb:49: syntax error, unexpected ':', expecting '}'
+... { redirect_to @tweet, notice: 'tweet was successfully creat...
+                              ^
+/home/vinicius/projects/anatomybackbonejs/app/controllers/tweets_controller.rb:50: syntax error, unexpected ':', expecting '}'
+...    format.json { render json: @tweet, status: :created, loc...
+                              ^
+/home/vinicius/projects/anatomybackbonejs/app/controllers/tweets_controller.rb:50: syntax error, unexpected ':', expecting '='
+...{ render json: @tweet, status: :created, location: @tweet }
+                              ^
+/home/vinicius/projects/anatomybackbonejs/app/controllers/tweets_controller.rb:52: syntax error, unexpected ':', expecting '}'
+        format.html { render action: "new" }
+                                    ^
+/home/vinicius/projects/anatomybackbonejs/app/controllers/tweets_controller.rb:53: syntax error, unexpected ':', expecting '}'
+...    format.json { render json: @tweet.errors, status: :unpro...
+                              ^
+/home/vinicius/projects/anatomybackbonejs/app/controllers/tweets_controller.rb:53: syntax error, unexpected ':', expecting '='
+...r json: @tweet.errors, status: :unprocessable_entity }
+                              ^):
+  activesupport (3.2.2) lib/active_support/dependencies.rb:469:in `load'
+  activesupport (3.2.2) lib/active_support/dependencies.rb:469:in `load_file'
+  activesupport (3.2.2) lib/active_support/dependencies.rb:639:in `new_constants_in'
+  activesupport (3.2.2) lib/active_support/dependencies.rb:468:in `load_file'
+  activesupport (3.2.2) lib/active_support/dependencies.rb:353:in `require_or_load'
+  activesupport (3.2.2) lib/active_support/dependencies.rb:502:in `load_missing_constant'
+  activesupport (3.2.2) lib/active_support/dependencies.rb:192:in `const_missing'
+  activesupport (3.2.2) lib/active_support/dependencies.rb:190:in `each'
+  activesupport (3.2.2) lib/active_support/dependencies.rb:190:in `const_missing'
+  activesupport (3.2.2) lib/active_support/inflector/methods.rb:218:in `constantize'
+  activesupport (3.2.2) lib/active_support/inflector/methods.rb:217:in `each'
+  activesupport (3.2.2) lib/active_support/inflector/methods.rb:217:in `constantize'
+  activesupport (3.2.2) lib/active_support/dependencies.rb:554:in `get'
+  actionpack (3.2.2) lib/action_dispatch/routing/route_set.rb:63:in `controller_reference'
+  actionpack (3.2.2) lib/action_dispatch/routing/route_set.rb:48:in `controller'
+  actionpack (3.2.2) lib/action_dispatch/routing/route_set.rb:26:in `call'
+  journey (1.0.3) lib/journey/router.rb:68:in `call'
+  journey (1.0.3) lib/journey/router.rb:56:in `each'
+  journey (1.0.3) lib/journey/router.rb:56:in `call'
+  actionpack (3.2.2) lib/action_dispatch/routing/route_set.rb:594:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  rack (1.4.1) lib/rack/etag.rb:23:in `call'
+  rack (1.4.1) lib/rack/conditionalget.rb:25:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/head.rb:14:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/flash.rb:242:in `call'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:205:in `context'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:200:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/cookies.rb:338:in `call'
+  activerecord (3.2.2) lib/active_record/query_cache.rb:64:in `call'
+  activerecord (3.2.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:443:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/callbacks.rb:28:in `call'
+  activesupport (3.2.2) lib/active_support/callbacks.rb:405:in `_run__714785632__call__4__callbacks'
+  activesupport (3.2.2) lib/active_support/callbacks.rb:405:in `send'
+  activesupport (3.2.2) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.2) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.2) lib/active_support/callbacks.rb:81:in `send'
+  activesupport (3.2.2) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.2) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.2) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.2) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.2) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/static.rb:61:in `call'
+  railties (3.2.2) lib/rails/engine.rb:479:in `call'
+  railties (3.2.2) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.2) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+  rack (1.4.1) lib/rack/handler/webrick.rb:13:in `run'
+  rack (1.4.1) lib/rack/server.rb:265:in `start'
+  railties (3.2.2) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.2) lib/rails/commands.rb:55
+  railties (3.2.2) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.2) lib/rails/commands.rb:50
+  script/rails:6:in `require'
+  script/rails:6
+
+
+  Rendered /home/vinicius/.rvm/gems/ruby-1.9.3-p327@global/gems/actionpack-3.2.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.8ms)
+  Rendered /home/vinicius/.rvm/gems/ruby-1.9.3-p327@global/gems/actionpack-3.2.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+  Rendered /home/vinicius/.rvm/gems/ruby-1.9.3-p327@global/gems/actionpack-3.2.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (7.3ms)
+
+
+Started GET "/tweets/new" for 127.0.0.1 at Sun Jan 20 19:45:21 -0200 2013
+Processing by TweetsController#new as HTML
+  Rendered tweets/_form.html.erb (3.4ms)
+  Rendered tweets/new.html.erb within layouts/application (5.4ms)
+Completed 200 OK in 67ms (Views: 64.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Sun Jan 20 19:45:21 -0200 2013
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Sun Jan 20 19:45:21 -0200 2013
+Served asset /jquery.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Sun Jan 20 19:45:21 -0200 2013
+Served asset /jquery_ujs.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/json2.js?body=1" for 127.0.0.1 at Sun Jan 20 19:45:21 -0200 2013
+Served asset /json2.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at Sun Jan 20 19:45:21 -0200 2013
+Served asset /underscore.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/backbone.js?body=1" for 127.0.0.1 at Sun Jan 20 19:45:21 -0200 2013
+Served asset /backbone.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/backbone-rails.js?body=1" for 127.0.0.1 at Sun Jan 20 19:45:21 -0200 2013
+Served asset /backbone-rails.js - 304 Not Modified (16ms)
+
+
+Started GET "/assets/models/todo_item.js?body=1" for 127.0.0.1 at Sun Jan 20 19:45:21 -0200 2013
+Served asset /models/todo_item.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/models/tweet.js?body=1" for 127.0.0.1 at Sun Jan 20 19:45:21 -0200 2013
+Served asset /models/tweet.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/collections/todo_items.js?body=1" for 127.0.0.1 at Sun Jan 20 19:45:21 -0200 2013
+Served asset /collections/todo_items.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/collections/tweet.js?body=1" for 127.0.0.1 at Sun Jan 20 19:45:21 -0200 2013
+Served asset /collections/tweet.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/views/todo_view.js?body=1" for 127.0.0.1 at Sun Jan 20 19:45:21 -0200 2013
+Served asset /views/todo_view.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/views/todos_view.js?body=1" for 127.0.0.1 at Sun Jan 20 19:45:21 -0200 2013
+Served asset /views/todos_view.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/views/tweet_view.js?body=1" for 127.0.0.1 at Sun Jan 20 19:45:21 -0200 2013
+Served asset /views/tweet_view.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/views/tweets_view.js?body=1" for 127.0.0.1 at Sun Jan 20 19:45:21 -0200 2013
+Served asset /views/tweets_view.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/router.js?body=1" for 127.0.0.1 at Sun Jan 20 19:45:21 -0200 2013
+Served asset /router.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Sun Jan 20 19:45:21 -0200 2013
+Served asset /application.js - 304 Not Modified (18ms)
+
+
+Started GET "/tweets" for 127.0.0.1 at Sun Jan 20 19:45:21 -0200 2013
+Processing by TweetsController#index as JSON
+  [1m[36mTweet Load (0.2ms)[0m  [1mSELECT "tweets".* FROM "tweets" [0m
+Completed 500 Internal Server Error in 2ms
+
+RuntimeError (In order to use respond_with, first you need to declare the formats your controller responds to in the class level):
+  app/controllers/tweets_controller.rb:9:in `index'
+
+
+  Rendered /home/vinicius/.rvm/gems/ruby-1.9.3-p327@global/gems/actionpack-3.2.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.8ms)
+  Rendered /home/vinicius/.rvm/gems/ruby-1.9.3-p327@global/gems/actionpack-3.2.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered /home/vinicius/.rvm/gems/ruby-1.9.3-p327@global/gems/actionpack-3.2.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (6.3ms)
+
+
+Started POST "/tweets" for 127.0.0.1 at Sun Jan 20 19:45:27 -0200 2013
+Processing by TweetsController#create as HTML
+  Parameters: {"commit"=>"Create Tweet", "tweet"=>{"content"=>"content2\r\n"}, "authenticity_token"=>"N103fGWfQUqphzGMLnDYUeEBEElyYm4XODkpJtNsug4=", "utf8"=>"✓"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (2.8ms)[0m  [1mINSERT INTO "tweets" ("content", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["content", "content2\r\n"], ["created_at", Sun, 20 Jan 2013 21:45:27 UTC +00:00], ["updated_at", Sun, 20 Jan 2013 21:45:27 UTC +00:00]]
+  [1m[35m (203.8ms)[0m  commit transaction
+Redirected to http://localhost:3000/tweets/2
+Completed 302 Found in 213ms (ActiveRecord: 206.6ms)
+
+
+Started GET "/tweets/2" for 127.0.0.1 at Sun Jan 20 19:45:27 -0200 2013
+Processing by TweetsController#show as HTML
+  Parameters: {"id"=>"2"}
+Completed 500 Internal Server Error in 0ms
+
+RuntimeError (In order to use respond_with, first you need to declare the formats your controller responds to in the class level):
+  app/controllers/tweets_controller.rb:13:in `show'
+
+
+  Rendered /home/vinicius/.rvm/gems/ruby-1.9.3-p327@global/gems/actionpack-3.2.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.8ms)
+  Rendered /home/vinicius/.rvm/gems/ruby-1.9.3-p327@global/gems/actionpack-3.2.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /home/vinicius/.rvm/gems/ruby-1.9.3-p327@global/gems/actionpack-3.2.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (5.9ms)
+
+
+Started GET "/" for 127.0.0.1 at Sun Jan 20 19:45:35 -0200 2013
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 11ms (Views: 10.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Sun Jan 20 19:45:35 -0200 2013
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Sun Jan 20 19:45:35 -0200 2013
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Sun Jan 20 19:45:35 -0200 2013
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/json2.js?body=1" for 127.0.0.1 at Sun Jan 20 19:45:35 -0200 2013
+Served asset /json2.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at Sun Jan 20 19:45:35 -0200 2013
+Served asset /underscore.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone.js?body=1" for 127.0.0.1 at Sun Jan 20 19:45:35 -0200 2013
+Served asset /backbone.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone-rails.js?body=1" for 127.0.0.1 at Sun Jan 20 19:45:35 -0200 2013
+Served asset /backbone-rails.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/models/todo_item.js?body=1" for 127.0.0.1 at Sun Jan 20 19:45:35 -0200 2013
+Served asset /models/todo_item.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/models/tweet.js?body=1" for 127.0.0.1 at Sun Jan 20 19:45:35 -0200 2013
+Served asset /models/tweet.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/collections/todo_items.js?body=1" for 127.0.0.1 at Sun Jan 20 19:45:35 -0200 2013
+Served asset /collections/todo_items.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/collections/tweet.js?body=1" for 127.0.0.1 at Sun Jan 20 19:45:35 -0200 2013
+Served asset /collections/tweet.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/views/todo_view.js?body=1" for 127.0.0.1 at Sun Jan 20 19:45:35 -0200 2013
+Served asset /views/todo_view.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/views/todos_view.js?body=1" for 127.0.0.1 at Sun Jan 20 19:45:35 -0200 2013
+Served asset /views/todos_view.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/views/tweet_view.js?body=1" for 127.0.0.1 at Sun Jan 20 19:45:35 -0200 2013
+Served asset /views/tweet_view.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/views/tweets_view.js?body=1" for 127.0.0.1 at Sun Jan 20 19:45:35 -0200 2013
+Served asset /views/tweets_view.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/router.js?body=1" for 127.0.0.1 at Sun Jan 20 19:45:35 -0200 2013
+Served asset /router.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Sun Jan 20 19:45:35 -0200 2013
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/tweets" for 127.0.0.1 at Sun Jan 20 19:45:35 -0200 2013
+Processing by TweetsController#index as JSON
+  [1m[36mTweet Load (0.2ms)[0m  [1mSELECT "tweets".* FROM "tweets" [0m
+Completed 500 Internal Server Error in 1ms
+
+RuntimeError (In order to use respond_with, first you need to declare the formats your controller responds to in the class level):
+  app/controllers/tweets_controller.rb:9:in `index'
+
+
+  Rendered /home/vinicius/.rvm/gems/ruby-1.9.3-p327@global/gems/actionpack-3.2.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.8ms)
+  Rendered /home/vinicius/.rvm/gems/ruby-1.9.3-p327@global/gems/actionpack-3.2.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.6ms)
+  Rendered /home/vinicius/.rvm/gems/ruby-1.9.3-p327@global/gems/actionpack-3.2.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (6.7ms)
+
+
+Started GET "/assets/bg-content.png" for 127.0.0.1 at Sun Jan 20 19:45:35 -0200 2013
+Served asset /bg-content.png - 304 Not Modified (3ms)
+
+
+Started GET "/" for 127.0.0.1 at Sun Jan 20 19:45:39 -0200 2013
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 9ms (Views: 8.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Sun Jan 20 19:45:39 -0200 2013
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Sun Jan 20 19:45:39 -0200 2013
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Sun Jan 20 19:45:39 -0200 2013
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/json2.js?body=1" for 127.0.0.1 at Sun Jan 20 19:45:39 -0200 2013
+Served asset /json2.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at Sun Jan 20 19:45:39 -0200 2013
+Served asset /underscore.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone.js?body=1" for 127.0.0.1 at Sun Jan 20 19:45:39 -0200 2013
+Served asset /backbone.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone-rails.js?body=1" for 127.0.0.1 at Sun Jan 20 19:45:39 -0200 2013
+Served asset /backbone-rails.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/models/todo_item.js?body=1" for 127.0.0.1 at Sun Jan 20 19:45:39 -0200 2013
+Served asset /models/todo_item.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/models/tweet.js?body=1" for 127.0.0.1 at Sun Jan 20 19:45:39 -0200 2013
+Served asset /models/tweet.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/collections/todo_items.js?body=1" for 127.0.0.1 at Sun Jan 20 19:45:39 -0200 2013
+Served asset /collections/todo_items.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/collections/tweet.js?body=1" for 127.0.0.1 at Sun Jan 20 19:45:39 -0200 2013
+Served asset /collections/tweet.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/views/todo_view.js?body=1" for 127.0.0.1 at Sun Jan 20 19:45:39 -0200 2013
+Served asset /views/todo_view.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/views/todos_view.js?body=1" for 127.0.0.1 at Sun Jan 20 19:45:39 -0200 2013
+Served asset /views/todos_view.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/views/tweet_view.js?body=1" for 127.0.0.1 at Sun Jan 20 19:45:39 -0200 2013
+Served asset /views/tweet_view.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/views/tweets_view.js?body=1" for 127.0.0.1 at Sun Jan 20 19:45:39 -0200 2013
+Served asset /views/tweets_view.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/router.js?body=1" for 127.0.0.1 at Sun Jan 20 19:45:39 -0200 2013
+Served asset /router.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Sun Jan 20 19:45:39 -0200 2013
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/tweets" for 127.0.0.1 at Sun Jan 20 19:45:39 -0200 2013
+Processing by TweetsController#index as JSON
+  [1m[35mTweet Load (0.2ms)[0m  SELECT "tweets".* FROM "tweets" 
+Completed 500 Internal Server Error in 3ms
+
+RuntimeError (In order to use respond_with, first you need to declare the formats your controller responds to in the class level):
+  app/controllers/tweets_controller.rb:9:in `index'
+
+
+  Rendered /home/vinicius/.rvm/gems/ruby-1.9.3-p327@global/gems/actionpack-3.2.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.8ms)
+  Rendered /home/vinicius/.rvm/gems/ruby-1.9.3-p327@global/gems/actionpack-3.2.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /home/vinicius/.rvm/gems/ruby-1.9.3-p327@global/gems/actionpack-3.2.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (5.8ms)
+
+
+Started GET "/" for 127.0.0.1 at Sun Jan 20 19:46:08 -0200 2013
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 6ms (Views: 6.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Sun Jan 20 19:46:08 -0200 2013
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Sun Jan 20 19:46:08 -0200 2013
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Sun Jan 20 19:46:08 -0200 2013
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/json2.js?body=1" for 127.0.0.1 at Sun Jan 20 19:46:08 -0200 2013
+Served asset /json2.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at Sun Jan 20 19:46:08 -0200 2013
+Served asset /underscore.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone.js?body=1" for 127.0.0.1 at Sun Jan 20 19:46:08 -0200 2013
+Served asset /backbone.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone-rails.js?body=1" for 127.0.0.1 at Sun Jan 20 19:46:08 -0200 2013
+Served asset /backbone-rails.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/models/todo_item.js?body=1" for 127.0.0.1 at Sun Jan 20 19:46:08 -0200 2013
+Served asset /models/todo_item.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/models/tweet.js?body=1" for 127.0.0.1 at Sun Jan 20 19:46:08 -0200 2013
+Served asset /models/tweet.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/collections/todo_items.js?body=1" for 127.0.0.1 at Sun Jan 20 19:46:08 -0200 2013
+Served asset /collections/todo_items.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/collections/tweet.js?body=1" for 127.0.0.1 at Sun Jan 20 19:46:08 -0200 2013
+Served asset /collections/tweet.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/views/todo_view.js?body=1" for 127.0.0.1 at Sun Jan 20 19:46:08 -0200 2013
+Served asset /views/todo_view.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/views/todos_view.js?body=1" for 127.0.0.1 at Sun Jan 20 19:46:08 -0200 2013
+Served asset /views/todos_view.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/views/tweet_view.js?body=1" for 127.0.0.1 at Sun Jan 20 19:46:08 -0200 2013
+Served asset /views/tweet_view.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/views/tweets_view.js?body=1" for 127.0.0.1 at Sun Jan 20 19:46:08 -0200 2013
+Served asset /views/tweets_view.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/router.js?body=1" for 127.0.0.1 at Sun Jan 20 19:46:08 -0200 2013
+Served asset /router.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Sun Jan 20 19:46:08 -0200 2013
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/tweets" for 127.0.0.1 at Sun Jan 20 19:46:08 -0200 2013
+Processing by TweetsController#index as JSON
+  [1m[36mTweet Load (0.2ms)[0m  [1mSELECT "tweets".* FROM "tweets" [0m
+Completed 200 OK in 7ms (Views: 0.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bg-todo.png" for 127.0.0.1 at Sun Jan 20 19:46:08 -0200 2013
+Served asset /bg-todo.png - 304 Not Modified (1ms)
+
+
+Started GET "/tweets" for 127.0.0.1 at Sun Jan 20 19:46:14 -0200 2013
+Processing by TweetsController#index as JSON
+  [1m[35mTweet Load (0.2ms)[0m  SELECT "tweets".* FROM "tweets" 
+Completed 200 OK in 3ms (Views: 0.6ms | ActiveRecord: 0.0ms)

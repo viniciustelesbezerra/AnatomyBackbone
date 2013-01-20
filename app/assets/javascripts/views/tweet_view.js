@@ -1,5 +1,5 @@
 window.TweetView = Backbone.View.extend({
-  template: _.template('<h3 class="<%= status %>">  <input type=checkbox <%= status == "complete" ? "checked=checked" : "" %>/><%= content %> <a href="/#todos/<%= id %>">☞</a></h3>'),
+  template: _.template('<h3 class="<%= status %>"><input type=checkbox <%= status == "complete" ? "checked=checked" : "" %>/><%= content %> <a href="/#tweets/<%= id %>">☞</a></h3>'),
 
   events: {
     'change input': 'toggleStatus'

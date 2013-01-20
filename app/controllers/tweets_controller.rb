@@ -10,7 +10,7 @@ class TweetsController < ApplicationController
   end
 
   def show
-    respond_with @Tweet
+    respond_with @tweet
   end
 
   def update
@@ -30,6 +30,32 @@ class TweetsController < ApplicationController
 
     respond_with @tweet
   end
+
+  # Generate
+=begin  
+  def new
+    @tweet = Tweet.new
+
+    respond_to do |format|
+      format.html # new.html.erb
+      format.json { render :json => @tweet }
+    end
+  end
+
+  def create
+    @tweet = Tweet.new(params[:tweet])
+
+    respond_to do |format|
+      if @tweet.save
+        format.html { redirect_to @tweet, :notice => 'tweet was successfully created.' }
+        format.json { render :json => @tweet, :status => :created, :location => @tweet }
+      else
+        format.html { render :action => "new" }
+        format.json { render :json => @tweet.errors, :status => :unprocessable_entity }
+      end
+    end
+  end
+=end
 
   private
 
