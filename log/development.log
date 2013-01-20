@@ -1,0 +1,1427 @@
+
+
+Started GET "/" for 127.0.0.1 at Sat Jan 19 22:21:47 -0200 2013
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.8ms)
+Compiled application.css  (35ms)  (pid 7079)
+Compiled jquery.js  (4ms)  (pid 7079)
+Compiled jquery_ujs.js  (0ms)  (pid 7079)
+Compiled json2.js  (1ms)  (pid 7079)
+Compiled underscore.js  (1ms)  (pid 7079)
+Compiled backbone.js  (1ms)  (pid 7079)
+Compiled backbone-rails.js  (23ms)  (pid 7079)
+Compiled models/todo_item.js  (0ms)  (pid 7079)
+Compiled collections/todo_items.js  (0ms)  (pid 7079)
+Compiled views/todo_view.js  (0ms)  (pid 7079)
+Compiled views/todos_view.js  (0ms)  (pid 7079)
+Compiled router.js  (0ms)  (pid 7079)
+Compiled application.js  (148ms)  (pid 7079)
+Completed 200 OK in 223ms (Views: 222.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/json2.js?body=1" for 127.0.0.1 at Sat Jan 19 22:21:47 -0200 2013
+Served asset /json2.js - 200 OK (2ms)
+
+
+Started GET "/assets/backbone-rails.js?body=1" for 127.0.0.1 at Sat Jan 19 22:21:47 -0200 2013
+Served asset /backbone-rails.js - 200 OK (7ms)
+
+
+Started GET "/assets/collections/todo_items.js?body=1" for 127.0.0.1 at Sat Jan 19 22:21:47 -0200 2013
+Served asset /collections/todo_items.js - 200 OK (1ms)
+
+
+Started GET "/assets/models/todo_item.js?body=1" for 127.0.0.1 at Sat Jan 19 22:21:47 -0200 2013
+Served asset /models/todo_item.js - 200 OK (1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Sat Jan 19 22:21:47 -0200 2013
+Served asset /application.css - 200 OK (2ms)
+
+
+Started GET "/assets/views/todo_view.js?body=1" for 127.0.0.1 at Sat Jan 19 22:21:47 -0200 2013
+Served asset /views/todo_view.js - 200 OK (1ms)
+
+
+Started GET "/assets/views/todos_view.js?body=1" for 127.0.0.1 at Sat Jan 19 22:21:47 -0200 2013
+Served asset /views/todos_view.js - 200 OK (1ms)
+
+
+Started GET "/assets/router.js?body=1" for 127.0.0.1 at Sat Jan 19 22:21:47 -0200 2013
+Served asset /router.js - 200 OK (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Sat Jan 19 22:21:47 -0200 2013
+Served asset /jquery.js - 200 OK (42ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Sat Jan 19 22:21:47 -0200 2013
+Served asset /jquery_ujs.js - 200 OK (3ms)
+
+
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at Sat Jan 19 22:21:47 -0200 2013
+Served asset /underscore.js - 200 OK (3ms)
+
+
+Started GET "/assets/bg-body.jpg" for 127.0.0.1 at Sat Jan 19 22:21:47 -0200 2013
+Served asset /bg-body.jpg - 200 OK (6ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Sat Jan 19 22:21:47 -0200 2013
+Served asset /application.js - 200 OK (19ms)
+
+
+Started GET "/assets/backbone.js?body=1" for 127.0.0.1 at Sat Jan 19 22:21:47 -0200 2013
+Served asset /backbone.js - 200 OK (4ms)
+
+
+Started GET "/todos" for 127.0.0.1 at Sat Jan 19 22:21:48 -0200 2013
+
+SyntaxError (/home/vinicius/projects/anatomyofbackbone-master/app/controllers/todos_controller.rb:3: syntax error, unexpected ':', expecting kEND
+  before_filter :load_todo, only: %w(show update destroy)
+                                 ^):
+  activesupport (3.2.2) lib/active_support/dependencies.rb:469:in `load'
+  activesupport (3.2.2) lib/active_support/dependencies.rb:469:in `load_file'
+  activesupport (3.2.2) lib/active_support/dependencies.rb:639:in `new_constants_in'
+  activesupport (3.2.2) lib/active_support/dependencies.rb:468:in `load_file'
+  activesupport (3.2.2) lib/active_support/dependencies.rb:353:in `require_or_load'
+  activesupport (3.2.2) lib/active_support/dependencies.rb:502:in `load_missing_constant'
+  activesupport (3.2.2) lib/active_support/dependencies.rb:192:in `const_missing'
+  activesupport (3.2.2) lib/active_support/dependencies.rb:190:in `each'
+  activesupport (3.2.2) lib/active_support/dependencies.rb:190:in `const_missing'
+  activesupport (3.2.2) lib/active_support/inflector/methods.rb:218:in `constantize'
+  activesupport (3.2.2) lib/active_support/inflector/methods.rb:217:in `each'
+  activesupport (3.2.2) lib/active_support/inflector/methods.rb:217:in `constantize'
+  activesupport (3.2.2) lib/active_support/dependencies.rb:554:in `get'
+  actionpack (3.2.2) lib/action_dispatch/routing/route_set.rb:63:in `controller_reference'
+  actionpack (3.2.2) lib/action_dispatch/routing/route_set.rb:48:in `controller'
+  actionpack (3.2.2) lib/action_dispatch/routing/route_set.rb:26:in `call'
+  journey (1.0.3) lib/journey/router.rb:68:in `call'
+  journey (1.0.3) lib/journey/router.rb:56:in `each'
+  journey (1.0.3) lib/journey/router.rb:56:in `call'
+  actionpack (3.2.2) lib/action_dispatch/routing/route_set.rb:594:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  rack (1.4.1) lib/rack/etag.rb:23:in `call'
+  rack (1.4.1) lib/rack/conditionalget.rb:25:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/head.rb:14:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/flash.rb:242:in `call'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:205:in `context'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:200:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/cookies.rb:338:in `call'
+  activerecord (3.2.2) lib/active_record/query_cache.rb:64:in `call'
+  activerecord (3.2.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:443:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/callbacks.rb:28:in `call'
+  activesupport (3.2.2) lib/active_support/callbacks.rb:405:in `_run__800172467__call__4__callbacks'
+  activesupport (3.2.2) lib/active_support/callbacks.rb:405:in `send'
+  activesupport (3.2.2) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.2) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.2) lib/active_support/callbacks.rb:81:in `send'
+  activesupport (3.2.2) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.2) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.2) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.2) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.2) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/static.rb:61:in `call'
+  railties (3.2.2) lib/rails/engine.rb:479:in `call'
+  railties (3.2.2) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.2) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+  rack (1.4.1) lib/rack/handler/webrick.rb:13:in `run'
+  rack (1.4.1) lib/rack/server.rb:265:in `start'
+  railties (3.2.2) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.2) lib/rails/commands.rb:55
+  railties (3.2.2) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.2) lib/rails/commands.rb:50
+  script/rails:6:in `require'
+  script/rails:6
+
+
+  Rendered /home/vinicius/.rvm/gems/ruby-1.9.3-p327@global/gems/actionpack-3.2.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.8ms)
+  Rendered /home/vinicius/.rvm/gems/ruby-1.9.3-p327@global/gems/actionpack-3.2.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.6ms)
+  Rendered /home/vinicius/.rvm/gems/ruby-1.9.3-p327@global/gems/actionpack-3.2.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (7.9ms)
+
+
+Started GET "/assets/bg-todo.png" for 127.0.0.1 at Sat Jan 19 22:21:48 -0200 2013
+Served asset /bg-todo.png - 200 OK (13ms)
+
+
+Started GET "/assets/bg-content.png" for 127.0.0.1 at Sat Jan 19 22:21:48 -0200 2013
+Served asset /bg-content.png - 200 OK (5ms)
+
+
+Started GET "/" for 127.0.0.1 at Sat Jan 19 22:22:51 -0200 2013
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 5ms (Views: 5.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Sat Jan 19 22:22:51 -0200 2013
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Sat Jan 19 22:22:51 -0200 2013
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Sat Jan 19 22:22:51 -0200 2013
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/json2.js?body=1" for 127.0.0.1 at Sat Jan 19 22:22:51 -0200 2013
+Served asset /json2.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at Sat Jan 19 22:22:51 -0200 2013
+Served asset /underscore.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone.js?body=1" for 127.0.0.1 at Sat Jan 19 22:22:51 -0200 2013
+Served asset /backbone.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone-rails.js?body=1" for 127.0.0.1 at Sat Jan 19 22:22:51 -0200 2013
+Served asset /backbone-rails.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/models/todo_item.js?body=1" for 127.0.0.1 at Sat Jan 19 22:22:51 -0200 2013
+Served asset /models/todo_item.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/collections/todo_items.js?body=1" for 127.0.0.1 at Sat Jan 19 22:22:51 -0200 2013
+Served asset /collections/todo_items.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/views/todo_view.js?body=1" for 127.0.0.1 at Sat Jan 19 22:22:51 -0200 2013
+Served asset /views/todo_view.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/views/todos_view.js?body=1" for 127.0.0.1 at Sat Jan 19 22:22:51 -0200 2013
+Served asset /views/todos_view.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/router.js?body=1" for 127.0.0.1 at Sat Jan 19 22:22:51 -0200 2013
+Served asset /router.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Sat Jan 19 22:22:51 -0200 2013
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bg-body.jpg" for 127.0.0.1 at Sat Jan 19 22:22:52 -0200 2013
+Served asset /bg-body.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/todos" for 127.0.0.1 at Sat Jan 19 22:22:52 -0200 2013
+Processing by TodosController#index as JSON
+Completed 500 Internal Server Error in 14ms
+
+ActiveRecord::RecordNotFound (Couldn't find Todo without an ID):
+  app/controllers/todos_controller.rb:37:in `load_todo'
+
+
+  Rendered /home/vinicius/.rvm/gems/ruby-1.9.3-p327@global/gems/actionpack-3.2.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered /home/vinicius/.rvm/gems/ruby-1.9.3-p327@global/gems/actionpack-3.2.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /home/vinicius/.rvm/gems/ruby-1.9.3-p327@global/gems/actionpack-3.2.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (8.3ms)
+
+
+Started GET "/assets/bg-content.png" for 127.0.0.1 at Sat Jan 19 22:22:52 -0200 2013
+Served asset /bg-content.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bg-todo.png" for 127.0.0.1 at Sat Jan 19 22:22:52 -0200 2013
+Served asset /bg-todo.png - 304 Not Modified (0ms)
+  [1m[36m (0.1ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35m (210.6ms)[0m  CREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) 
+  [1m[36m (0.1ms)[0m  [1mPRAGMA index_list("schema_migrations")[0m
+  [1m[35m (237.4ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36m (0.2ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Migrating to CreateTodos (20120315184538)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (1.1ms)[0m  [1mCREATE TABLE "todos" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "description" varchar(255), "status" varchar(255), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (0.2ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ('20120315184538')
+  [1m[36m (198.4ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  select sqlite_version(*)
+  [1m[36m (0.2ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.1ms)[0m  PRAGMA index_list("todos")
+
+
+Started GET "/" for 127.0.0.1 at Sat Jan 19 22:24:12 -0200 2013
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 7ms (Views: 6.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Sat Jan 19 22:24:12 -0200 2013
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Sat Jan 19 22:24:12 -0200 2013
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Sat Jan 19 22:24:12 -0200 2013
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/json2.js?body=1" for 127.0.0.1 at Sat Jan 19 22:24:12 -0200 2013
+Served asset /json2.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at Sat Jan 19 22:24:12 -0200 2013
+Served asset /underscore.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone.js?body=1" for 127.0.0.1 at Sat Jan 19 22:24:12 -0200 2013
+Served asset /backbone.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone-rails.js?body=1" for 127.0.0.1 at Sat Jan 19 22:24:12 -0200 2013
+Served asset /backbone-rails.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/models/todo_item.js?body=1" for 127.0.0.1 at Sat Jan 19 22:24:12 -0200 2013
+Served asset /models/todo_item.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/collections/todo_items.js?body=1" for 127.0.0.1 at Sat Jan 19 22:24:12 -0200 2013
+Served asset /collections/todo_items.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/views/todo_view.js?body=1" for 127.0.0.1 at Sat Jan 19 22:24:12 -0200 2013
+Served asset /views/todo_view.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/views/todos_view.js?body=1" for 127.0.0.1 at Sat Jan 19 22:24:12 -0200 2013
+Served asset /views/todos_view.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/router.js?body=1" for 127.0.0.1 at Sat Jan 19 22:24:12 -0200 2013
+Served asset /router.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Sat Jan 19 22:24:12 -0200 2013
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/todos" for 127.0.0.1 at Sat Jan 19 22:24:12 -0200 2013
+Processing by TodosController#index as JSON
+Completed 500 Internal Server Error in 3ms
+
+ActiveRecord::RecordNotFound (Couldn't find Todo without an ID):
+  app/controllers/todos_controller.rb:37:in `load_todo'
+
+
+  Rendered /home/vinicius/.rvm/gems/ruby-1.9.3-p327@global/gems/actionpack-3.2.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.8ms)
+  Rendered /home/vinicius/.rvm/gems/ruby-1.9.3-p327@global/gems/actionpack-3.2.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /home/vinicius/.rvm/gems/ruby-1.9.3-p327@global/gems/actionpack-3.2.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (6.3ms)
+
+
+Started GET "/" for 127.0.0.1 at Sat Jan 19 22:24:15 -0200 2013
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 9ms (Views: 8.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Sat Jan 19 22:24:15 -0200 2013
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Sat Jan 19 22:24:15 -0200 2013
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Sat Jan 19 22:24:15 -0200 2013
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/json2.js?body=1" for 127.0.0.1 at Sat Jan 19 22:24:15 -0200 2013
+Served asset /json2.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at Sat Jan 19 22:24:15 -0200 2013
+Served asset /underscore.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone.js?body=1" for 127.0.0.1 at Sat Jan 19 22:24:16 -0200 2013
+Served asset /backbone.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone-rails.js?body=1" for 127.0.0.1 at Sat Jan 19 22:24:16 -0200 2013
+Served asset /backbone-rails.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/models/todo_item.js?body=1" for 127.0.0.1 at Sat Jan 19 22:24:16 -0200 2013
+Served asset /models/todo_item.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/collections/todo_items.js?body=1" for 127.0.0.1 at Sat Jan 19 22:24:16 -0200 2013
+Served asset /collections/todo_items.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/views/todo_view.js?body=1" for 127.0.0.1 at Sat Jan 19 22:24:16 -0200 2013
+Served asset /views/todo_view.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/views/todos_view.js?body=1" for 127.0.0.1 at Sat Jan 19 22:24:16 -0200 2013
+Served asset /views/todos_view.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/router.js?body=1" for 127.0.0.1 at Sat Jan 19 22:24:16 -0200 2013
+Served asset /router.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Sat Jan 19 22:24:16 -0200 2013
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/todos" for 127.0.0.1 at Sat Jan 19 22:24:16 -0200 2013
+Processing by TodosController#index as JSON
+Completed 500 Internal Server Error in 0ms
+
+ActiveRecord::RecordNotFound (Couldn't find Todo without an ID):
+  app/controllers/todos_controller.rb:37:in `load_todo'
+
+
+  Rendered /home/vinicius/.rvm/gems/ruby-1.9.3-p327@global/gems/actionpack-3.2.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.8ms)
+  Rendered /home/vinicius/.rvm/gems/ruby-1.9.3-p327@global/gems/actionpack-3.2.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /home/vinicius/.rvm/gems/ruby-1.9.3-p327@global/gems/actionpack-3.2.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (5.7ms)
+
+
+Started GET "/" for 127.0.0.1 at Sat Jan 19 22:24:16 -0200 2013
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 6ms (Views: 6.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Sat Jan 19 22:24:16 -0200 2013
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Sat Jan 19 22:24:16 -0200 2013
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Sat Jan 19 22:24:16 -0200 2013
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone.js?body=1" for 127.0.0.1 at Sat Jan 19 22:24:16 -0200 2013
+Served asset /backbone.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/json2.js?body=1" for 127.0.0.1 at Sat Jan 19 22:24:16 -0200 2013
+Served asset /json2.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at Sat Jan 19 22:24:16 -0200 2013
+Served asset /underscore.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone-rails.js?body=1" for 127.0.0.1 at Sat Jan 19 22:24:16 -0200 2013
+Served asset /backbone-rails.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/models/todo_item.js?body=1" for 127.0.0.1 at Sat Jan 19 22:24:16 -0200 2013
+Served asset /models/todo_item.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/collections/todo_items.js?body=1" for 127.0.0.1 at Sat Jan 19 22:24:16 -0200 2013
+Served asset /collections/todo_items.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/views/todo_view.js?body=1" for 127.0.0.1 at Sat Jan 19 22:24:16 -0200 2013
+Served asset /views/todo_view.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/views/todos_view.js?body=1" for 127.0.0.1 at Sat Jan 19 22:24:16 -0200 2013
+Served asset /views/todos_view.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/router.js?body=1" for 127.0.0.1 at Sat Jan 19 22:24:16 -0200 2013
+Served asset /router.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Sat Jan 19 22:24:16 -0200 2013
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/todos" for 127.0.0.1 at Sat Jan 19 22:24:16 -0200 2013
+Processing by TodosController#index as JSON
+Completed 500 Internal Server Error in 0ms
+
+ActiveRecord::RecordNotFound (Couldn't find Todo without an ID):
+  app/controllers/todos_controller.rb:37:in `load_todo'
+
+
+  Rendered /home/vinicius/.rvm/gems/ruby-1.9.3-p327@global/gems/actionpack-3.2.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.8ms)
+  Rendered /home/vinicius/.rvm/gems/ruby-1.9.3-p327@global/gems/actionpack-3.2.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /home/vinicius/.rvm/gems/ruby-1.9.3-p327@global/gems/actionpack-3.2.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (6.7ms)
+
+
+Started GET "/" for 127.0.0.1 at Sat Jan 19 22:25:46 -0200 2013
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 5ms (Views: 4.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Sat Jan 19 22:25:46 -0200 2013
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Sat Jan 19 22:25:47 -0200 2013
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Sat Jan 19 22:25:47 -0200 2013
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/json2.js?body=1" for 127.0.0.1 at Sat Jan 19 22:25:47 -0200 2013
+Served asset /json2.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone.js?body=1" for 127.0.0.1 at Sat Jan 19 22:25:47 -0200 2013
+Served asset /backbone.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at Sat Jan 19 22:25:47 -0200 2013
+Served asset /underscore.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone-rails.js?body=1" for 127.0.0.1 at Sat Jan 19 22:25:47 -0200 2013
+Served asset /backbone-rails.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/models/todo_item.js?body=1" for 127.0.0.1 at Sat Jan 19 22:25:47 -0200 2013
+Served asset /models/todo_item.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/collections/todo_items.js?body=1" for 127.0.0.1 at Sat Jan 19 22:25:47 -0200 2013
+Served asset /collections/todo_items.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/views/todo_view.js?body=1" for 127.0.0.1 at Sat Jan 19 22:25:47 -0200 2013
+Served asset /views/todo_view.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/views/todos_view.js?body=1" for 127.0.0.1 at Sat Jan 19 22:25:47 -0200 2013
+Served asset /views/todos_view.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/router.js?body=1" for 127.0.0.1 at Sat Jan 19 22:25:47 -0200 2013
+Served asset /router.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Sat Jan 19 22:25:47 -0200 2013
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/todos" for 127.0.0.1 at Sat Jan 19 22:25:47 -0200 2013
+
+SyntaxError (/home/vinicius/projects/anatomyofbackbone-master/app/controllers/todos_controller.rb:3: syntax error, unexpected ':', expecting kEND
+  before_filter :load_todo, :only :%w(show update destroy)
+                                   ^):
+  activesupport (3.2.2) lib/active_support/dependencies.rb:469:in `load'
+  activesupport (3.2.2) lib/active_support/dependencies.rb:469:in `load_file'
+  activesupport (3.2.2) lib/active_support/dependencies.rb:639:in `new_constants_in'
+  activesupport (3.2.2) lib/active_support/dependencies.rb:468:in `load_file'
+  activesupport (3.2.2) lib/active_support/dependencies.rb:353:in `require_or_load'
+  activesupport (3.2.2) lib/active_support/dependencies.rb:502:in `load_missing_constant'
+  activesupport (3.2.2) lib/active_support/dependencies.rb:192:in `const_missing'
+  activesupport (3.2.2) lib/active_support/dependencies.rb:190:in `each'
+  activesupport (3.2.2) lib/active_support/dependencies.rb:190:in `const_missing'
+  activesupport (3.2.2) lib/active_support/inflector/methods.rb:218:in `constantize'
+  activesupport (3.2.2) lib/active_support/inflector/methods.rb:217:in `each'
+  activesupport (3.2.2) lib/active_support/inflector/methods.rb:217:in `constantize'
+  activesupport (3.2.2) lib/active_support/dependencies.rb:554:in `get'
+  actionpack (3.2.2) lib/action_dispatch/routing/route_set.rb:63:in `controller_reference'
+  actionpack (3.2.2) lib/action_dispatch/routing/route_set.rb:48:in `controller'
+  actionpack (3.2.2) lib/action_dispatch/routing/route_set.rb:26:in `call'
+  journey (1.0.3) lib/journey/router.rb:68:in `call'
+  journey (1.0.3) lib/journey/router.rb:56:in `each'
+  journey (1.0.3) lib/journey/router.rb:56:in `call'
+  actionpack (3.2.2) lib/action_dispatch/routing/route_set.rb:594:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  rack (1.4.1) lib/rack/etag.rb:23:in `call'
+  rack (1.4.1) lib/rack/conditionalget.rb:25:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/head.rb:14:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/flash.rb:242:in `call'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:205:in `context'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:200:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/cookies.rb:338:in `call'
+  activerecord (3.2.2) lib/active_record/query_cache.rb:64:in `call'
+  activerecord (3.2.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:443:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/callbacks.rb:28:in `call'
+  activesupport (3.2.2) lib/active_support/callbacks.rb:405:in `_run__800172467__call__4__callbacks'
+  activesupport (3.2.2) lib/active_support/callbacks.rb:405:in `send'
+  activesupport (3.2.2) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.2) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.2) lib/active_support/callbacks.rb:81:in `send'
+  activesupport (3.2.2) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.2) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.2) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.2) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.2) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.2) lib/action_dispatch/middleware/static.rb:61:in `call'
+  railties (3.2.2) lib/rails/engine.rb:479:in `call'
+  railties (3.2.2) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.2) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+  rack (1.4.1) lib/rack/handler/webrick.rb:13:in `run'
+  rack (1.4.1) lib/rack/server.rb:265:in `start'
+  railties (3.2.2) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.2) lib/rails/commands.rb:55
+  railties (3.2.2) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.2) lib/rails/commands.rb:50
+  script/rails:6:in `require'
+  script/rails:6
+
+
+  Rendered /home/vinicius/.rvm/gems/ruby-1.9.3-p327@global/gems/actionpack-3.2.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.8ms)
+  Rendered /home/vinicius/.rvm/gems/ruby-1.9.3-p327@global/gems/actionpack-3.2.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /home/vinicius/.rvm/gems/ruby-1.9.3-p327@global/gems/actionpack-3.2.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (7.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Sat Jan 19 22:26:02 -0200 2013
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 6ms (Views: 5.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Sat Jan 19 22:26:02 -0200 2013
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Sat Jan 19 22:26:02 -0200 2013
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Sat Jan 19 22:26:02 -0200 2013
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/json2.js?body=1" for 127.0.0.1 at Sat Jan 19 22:26:02 -0200 2013
+Served asset /json2.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at Sat Jan 19 22:26:02 -0200 2013
+Served asset /underscore.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone.js?body=1" for 127.0.0.1 at Sat Jan 19 22:26:02 -0200 2013
+Served asset /backbone.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone-rails.js?body=1" for 127.0.0.1 at Sat Jan 19 22:26:02 -0200 2013
+Served asset /backbone-rails.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/models/todo_item.js?body=1" for 127.0.0.1 at Sat Jan 19 22:26:02 -0200 2013
+Served asset /models/todo_item.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/collections/todo_items.js?body=1" for 127.0.0.1 at Sat Jan 19 22:26:02 -0200 2013
+Served asset /collections/todo_items.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/views/todo_view.js?body=1" for 127.0.0.1 at Sat Jan 19 22:26:02 -0200 2013
+Served asset /views/todo_view.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/views/todos_view.js?body=1" for 127.0.0.1 at Sat Jan 19 22:26:02 -0200 2013
+Served asset /views/todos_view.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/router.js?body=1" for 127.0.0.1 at Sat Jan 19 22:26:02 -0200 2013
+Served asset /router.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Sat Jan 19 22:26:02 -0200 2013
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/todos" for 127.0.0.1 at Sat Jan 19 22:26:02 -0200 2013
+Processing by TodosController#index as JSON
+  [1m[36mTodo Load (0.1ms)[0m  [1mSELECT "todos".* FROM "todos" [0m
+Completed 200 OK in 11ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Sat Jan 19 22:26:07 -0200 2013
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 7ms (Views: 6.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Sat Jan 19 22:26:07 -0200 2013
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Sat Jan 19 22:26:07 -0200 2013
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/json2.js?body=1" for 127.0.0.1 at Sat Jan 19 22:26:07 -0200 2013
+Served asset /json2.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Sat Jan 19 22:26:07 -0200 2013
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at Sat Jan 19 22:26:07 -0200 2013
+Served asset /underscore.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone.js?body=1" for 127.0.0.1 at Sat Jan 19 22:26:07 -0200 2013
+Served asset /backbone.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone-rails.js?body=1" for 127.0.0.1 at Sat Jan 19 22:26:07 -0200 2013
+Served asset /backbone-rails.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/models/todo_item.js?body=1" for 127.0.0.1 at Sat Jan 19 22:26:07 -0200 2013
+Served asset /models/todo_item.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/collections/todo_items.js?body=1" for 127.0.0.1 at Sat Jan 19 22:26:07 -0200 2013
+Served asset /collections/todo_items.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/views/todo_view.js?body=1" for 127.0.0.1 at Sat Jan 19 22:26:07 -0200 2013
+Served asset /views/todo_view.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/views/todos_view.js?body=1" for 127.0.0.1 at Sat Jan 19 22:26:07 -0200 2013
+Served asset /views/todos_view.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/router.js?body=1" for 127.0.0.1 at Sat Jan 19 22:26:07 -0200 2013
+Served asset /router.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Sat Jan 19 22:26:07 -0200 2013
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/todos" for 127.0.0.1 at Sat Jan 19 22:26:07 -0200 2013
+Processing by TodosController#index as JSON
+  [1m[35mTodo Load (0.2ms)[0m  SELECT "todos".* FROM "todos" 
+Completed 200 OK in 2ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Sat Jan 19 22:28:37 -0200 2013
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 7ms (Views: 6.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Sat Jan 19 22:28:37 -0200 2013
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Sat Jan 19 22:28:37 -0200 2013
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Sat Jan 19 22:28:37 -0200 2013
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/json2.js?body=1" for 127.0.0.1 at Sat Jan 19 22:28:37 -0200 2013
+Served asset /json2.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at Sat Jan 19 22:28:37 -0200 2013
+Served asset /underscore.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone.js?body=1" for 127.0.0.1 at Sat Jan 19 22:28:37 -0200 2013
+Served asset /backbone.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone-rails.js?body=1" for 127.0.0.1 at Sat Jan 19 22:28:37 -0200 2013
+Served asset /backbone-rails.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/models/todo_item.js?body=1" for 127.0.0.1 at Sat Jan 19 22:28:37 -0200 2013
+Served asset /models/todo_item.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/collections/todo_items.js?body=1" for 127.0.0.1 at Sat Jan 19 22:28:37 -0200 2013
+Served asset /collections/todo_items.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/views/todo_view.js?body=1" for 127.0.0.1 at Sat Jan 19 22:28:37 -0200 2013
+Served asset /views/todo_view.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/views/todos_view.js?body=1" for 127.0.0.1 at Sat Jan 19 22:28:37 -0200 2013
+Served asset /views/todos_view.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/router.js?body=1" for 127.0.0.1 at Sat Jan 19 22:28:37 -0200 2013
+Served asset /router.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Sat Jan 19 22:28:37 -0200 2013
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/todos" for 127.0.0.1 at Sat Jan 19 22:28:37 -0200 2013
+Processing by TodosController#index as JSON
+  [1m[36mTodo Load (0.3ms)[0m  [1mSELECT "todos".* FROM "todos" [0m
+Completed 200 OK in 3ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Sat Jan 19 22:29:45 -0200 2013
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 5ms (Views: 5.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Sat Jan 19 22:29:45 -0200 2013
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Sat Jan 19 22:29:45 -0200 2013
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Sat Jan 19 22:29:45 -0200 2013
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/json2.js?body=1" for 127.0.0.1 at Sat Jan 19 22:29:45 -0200 2013
+Served asset /json2.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at Sat Jan 19 22:29:45 -0200 2013
+Served asset /underscore.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone.js?body=1" for 127.0.0.1 at Sat Jan 19 22:29:45 -0200 2013
+Served asset /backbone.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone-rails.js?body=1" for 127.0.0.1 at Sat Jan 19 22:29:45 -0200 2013
+Served asset /backbone-rails.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/models/todo_item.js?body=1" for 127.0.0.1 at Sat Jan 19 22:29:45 -0200 2013
+Served asset /models/todo_item.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/collections/todo_items.js?body=1" for 127.0.0.1 at Sat Jan 19 22:29:45 -0200 2013
+Served asset /collections/todo_items.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/views/todo_view.js?body=1" for 127.0.0.1 at Sat Jan 19 22:29:45 -0200 2013
+Served asset /views/todo_view.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/views/todos_view.js?body=1" for 127.0.0.1 at Sat Jan 19 22:29:45 -0200 2013
+Served asset /views/todos_view.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/router.js?body=1" for 127.0.0.1 at Sat Jan 19 22:29:45 -0200 2013
+Served asset /router.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Sat Jan 19 22:29:45 -0200 2013
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/todos" for 127.0.0.1 at Sat Jan 19 22:29:45 -0200 2013
+Processing by TodosController#index as JSON
+  [1m[35mTodo Load (0.2ms)[0m  SELECT "todos".* FROM "todos" 
+Filter chain halted as :index rendered or redirected
+Completed 200 OK in 6ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35mTodo Load (0.1ms)[0m  SELECT "todos".* FROM "todos" WHERE "todos"."description" = 'Pick up milk' LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (2.3ms)[0m  INSERT INTO "todos" ("created_at", "description", "status", "updated_at") VALUES (?, ?, ?, ?)  [["created_at", Sun, 20 Jan 2013 00:30:39 UTC +00:00], ["description", "Pick up milk"], ["status", "incomplete"], ["updated_at", Sun, 20 Jan 2013 00:30:39 UTC +00:00]]
+  [1m[36m (196.1ms)[0m  [1mcommit transaction[0m
+  [1m[35mTodo Load (0.6ms)[0m  SELECT "todos".* FROM "todos" WHERE "todos"."description" = 'Walk the dog' LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "todos" ("created_at", "description", "status", "updated_at") VALUES (?, ?, ?, ?)  [["created_at", Sun, 20 Jan 2013 00:30:39 UTC +00:00], ["description", "Walk the dog"], ["status", "complete"], ["updated_at", Sun, 20 Jan 2013 00:30:39 UTC +00:00]]
+  [1m[36m (160.3ms)[0m  [1mcommit transaction[0m
+
+
+Started GET "/" for 127.0.0.1 at Sat Jan 19 22:31:18 -0200 2013
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 6ms (Views: 5.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Sat Jan 19 22:31:18 -0200 2013
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Sat Jan 19 22:31:18 -0200 2013
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Sat Jan 19 22:31:18 -0200 2013
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/json2.js?body=1" for 127.0.0.1 at Sat Jan 19 22:31:18 -0200 2013
+Served asset /json2.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at Sat Jan 19 22:31:18 -0200 2013
+Served asset /underscore.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone.js?body=1" for 127.0.0.1 at Sat Jan 19 22:31:18 -0200 2013
+Served asset /backbone.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone-rails.js?body=1" for 127.0.0.1 at Sat Jan 19 22:31:18 -0200 2013
+Served asset /backbone-rails.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/models/todo_item.js?body=1" for 127.0.0.1 at Sat Jan 19 22:31:18 -0200 2013
+Served asset /models/todo_item.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/collections/todo_items.js?body=1" for 127.0.0.1 at Sat Jan 19 22:31:18 -0200 2013
+Served asset /collections/todo_items.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/views/todo_view.js?body=1" for 127.0.0.1 at Sat Jan 19 22:31:18 -0200 2013
+Served asset /views/todo_view.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/views/todos_view.js?body=1" for 127.0.0.1 at Sat Jan 19 22:31:18 -0200 2013
+Served asset /views/todos_view.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/router.js?body=1" for 127.0.0.1 at Sat Jan 19 22:31:18 -0200 2013
+Served asset /router.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Sat Jan 19 22:31:18 -0200 2013
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/todos" for 127.0.0.1 at Sat Jan 19 22:31:18 -0200 2013
+Processing by TodosController#index as JSON
+  [1m[36mTodo Load (0.2ms)[0m  [1mSELECT "todos".* FROM "todos" [0m
+Filter chain halted as :index rendered or redirected
+Completed 200 OK in 9ms (Views: 1.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bg-todo.png" for 127.0.0.1 at Sat Jan 19 22:31:18 -0200 2013
+Served asset /bg-todo.png - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at Sat Jan 19 22:31:33 -0200 2013
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 6ms (Views: 5.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Sat Jan 19 22:31:33 -0200 2013
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Sat Jan 19 22:31:33 -0200 2013
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Sat Jan 19 22:31:33 -0200 2013
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/json2.js?body=1" for 127.0.0.1 at Sat Jan 19 22:31:33 -0200 2013
+Served asset /json2.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at Sat Jan 19 22:31:33 -0200 2013
+Served asset /underscore.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone.js?body=1" for 127.0.0.1 at Sat Jan 19 22:31:33 -0200 2013
+Served asset /backbone.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone-rails.js?body=1" for 127.0.0.1 at Sat Jan 19 22:31:33 -0200 2013
+Served asset /backbone-rails.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/models/todo_item.js?body=1" for 127.0.0.1 at Sat Jan 19 22:31:33 -0200 2013
+Served asset /models/todo_item.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/collections/todo_items.js?body=1" for 127.0.0.1 at Sat Jan 19 22:31:33 -0200 2013
+Served asset /collections/todo_items.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/views/todo_view.js?body=1" for 127.0.0.1 at Sat Jan 19 22:31:33 -0200 2013
+Served asset /views/todo_view.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/views/todos_view.js?body=1" for 127.0.0.1 at Sat Jan 19 22:31:33 -0200 2013
+Served asset /views/todos_view.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/router.js?body=1" for 127.0.0.1 at Sat Jan 19 22:31:33 -0200 2013
+Served asset /router.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Sat Jan 19 22:31:33 -0200 2013
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/todos" for 127.0.0.1 at Sat Jan 19 22:31:33 -0200 2013
+Processing by TodosController#index as JSON
+  [1m[35mTodo Load (0.2ms)[0m  SELECT "todos".* FROM "todos" 
+Completed 200 OK in 11ms (Views: 0.7ms | ActiveRecord: 0.0ms)
+
+
+Started PUT "/todos/2" for 127.0.0.1 at Sat Jan 19 22:32:04 -0200 2013
+Processing by TodosController#update as JSON
+  Parameters: {"description"=>"Walk the dog", "status"=>"incomplete", "created_at"=>"2013-01-20T00:30:39Z", "updated_at"=>"2013-01-20T00:30:39Z", "id"=>"2"}
+  [1m[36mTodo Load (0.2ms)[0m  [1mSELECT "todos".* FROM "todos" WHERE "todos"."id" = ? LIMIT 1[0m  [["id", "2"]]
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+Completed 204 No Content in 4ms (ActiveRecord: 0.0ms)
+
+
+Started PUT "/todos/2" for 127.0.0.1 at Sat Jan 19 22:32:12 -0200 2013
+Processing by TodosController#update as JSON
+  Parameters: {"description"=>"Walk the dog", "status"=>"complete", "created_at"=>"2013-01-20T00:30:39Z", "updated_at"=>"2013-01-20T00:30:39Z", "id"=>"2"}
+  [1m[35mTodo Load (0.2ms)[0m  SELECT "todos".* FROM "todos" WHERE "todos"."id" = ? LIMIT 1  [["id", "2"]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  commit transaction
+Completed 204 No Content in 8ms (ActiveRecord: 0.0ms)
+
+
+Started PUT "/todos/2" for 127.0.0.1 at Sat Jan 19 22:32:12 -0200 2013
+Processing by TodosController#update as JSON
+  Parameters: {"description"=>"Walk the dog", "status"=>"incomplete", "created_at"=>"2013-01-20T00:30:39Z", "updated_at"=>"2013-01-20T00:30:39Z", "id"=>"2"}
+  [1m[36mTodo Load (0.3ms)[0m  [1mSELECT "todos".* FROM "todos" WHERE "todos"."id" = ? LIMIT 1[0m  [["id", "2"]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+Completed 204 No Content in 5ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/todos" for 127.0.0.1 at Sat Jan 19 22:32:14 -0200 2013
+Processing by TodosController#index as JSON
+  [1m[35mTodo Load (0.1ms)[0m  SELECT "todos".* FROM "todos" 
+Completed 200 OK in 2ms (Views: 0.7ms | ActiveRecord: 0.0ms)
+
+
+Started PUT "/todos/2" for 127.0.0.1 at Sat Jan 19 22:32:19 -0200 2013
+Processing by TodosController#update as JSON
+  Parameters: {"description"=>"Walk the dog", "status"=>"incomplete", "created_at"=>"2013-01-20T00:30:39Z", "updated_at"=>"2013-01-20T00:30:39Z", "id"=>"2"}
+  [1m[36mTodo Load (0.1ms)[0m  [1mSELECT "todos".* FROM "todos" WHERE "todos"."id" = ? LIMIT 1[0m  [["id", "2"]]
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+Completed 204 No Content in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/todos" for 127.0.0.1 at Sat Jan 19 22:32:35 -0200 2013
+Processing by TodosController#index as JSON
+  [1m[35mTodo Load (0.1ms)[0m  SELECT "todos".* FROM "todos" 
+Completed 200 OK in 2ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Sat Jan 19 22:32:37 -0200 2013
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 9ms (Views: 8.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Sat Jan 19 22:32:37 -0200 2013
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Sat Jan 19 22:32:37 -0200 2013
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Sat Jan 19 22:32:37 -0200 2013
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/json2.js?body=1" for 127.0.0.1 at Sat Jan 19 22:32:37 -0200 2013
+Served asset /json2.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at Sat Jan 19 22:32:37 -0200 2013
+Served asset /underscore.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone.js?body=1" for 127.0.0.1 at Sat Jan 19 22:32:37 -0200 2013
+Served asset /backbone.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone-rails.js?body=1" for 127.0.0.1 at Sat Jan 19 22:32:37 -0200 2013
+Served asset /backbone-rails.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/models/todo_item.js?body=1" for 127.0.0.1 at Sat Jan 19 22:32:37 -0200 2013
+Served asset /models/todo_item.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/collections/todo_items.js?body=1" for 127.0.0.1 at Sat Jan 19 22:32:37 -0200 2013
+Served asset /collections/todo_items.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/views/todo_view.js?body=1" for 127.0.0.1 at Sat Jan 19 22:32:37 -0200 2013
+Served asset /views/todo_view.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/views/todos_view.js?body=1" for 127.0.0.1 at Sat Jan 19 22:32:37 -0200 2013
+Served asset /views/todos_view.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/router.js?body=1" for 127.0.0.1 at Sat Jan 19 22:32:37 -0200 2013
+Served asset /router.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Sat Jan 19 22:32:37 -0200 2013
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/todos" for 127.0.0.1 at Sat Jan 19 22:32:37 -0200 2013
+Processing by TodosController#index as JSON
+  [1m[36mTodo Load (0.2ms)[0m  [1mSELECT "todos".* FROM "todos" [0m
+Completed 200 OK in 47ms (Views: 0.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Sat Jan 19 22:32:38 -0200 2013
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 11ms (Views: 10.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Sat Jan 19 22:32:38 -0200 2013
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Sat Jan 19 22:32:38 -0200 2013
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/json2.js?body=1" for 127.0.0.1 at Sat Jan 19 22:32:38 -0200 2013
+Served asset /json2.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at Sat Jan 19 22:32:38 -0200 2013
+Served asset /underscore.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Sat Jan 19 22:32:38 -0200 2013
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone.js?body=1" for 127.0.0.1 at Sat Jan 19 22:32:38 -0200 2013
+Served asset /backbone.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone-rails.js?body=1" for 127.0.0.1 at Sat Jan 19 22:32:38 -0200 2013
+Served asset /backbone-rails.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/models/todo_item.js?body=1" for 127.0.0.1 at Sat Jan 19 22:32:38 -0200 2013
+Served asset /models/todo_item.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/collections/todo_items.js?body=1" for 127.0.0.1 at Sat Jan 19 22:32:38 -0200 2013
+Served asset /collections/todo_items.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/views/todo_view.js?body=1" for 127.0.0.1 at Sat Jan 19 22:32:38 -0200 2013
+Served asset /views/todo_view.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/views/todos_view.js?body=1" for 127.0.0.1 at Sat Jan 19 22:32:38 -0200 2013
+Served asset /views/todos_view.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/router.js?body=1" for 127.0.0.1 at Sat Jan 19 22:32:38 -0200 2013
+Served asset /router.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Sat Jan 19 22:32:38 -0200 2013
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/todos" for 127.0.0.1 at Sat Jan 19 22:32:38 -0200 2013
+Processing by TodosController#index as JSON
+  [1m[35mTodo Load (0.2ms)[0m  SELECT "todos".* FROM "todos" 
+Completed 200 OK in 3ms (Views: 0.7ms | ActiveRecord: 0.0ms)
+
+
+Started PUT "/todos/2" for 127.0.0.1 at Sat Jan 19 22:32:40 -0200 2013
+Processing by TodosController#update as JSON
+  Parameters: {"description"=>"Walk the dog", "status"=>"incomplete", "created_at"=>"2013-01-20T00:30:39Z", "updated_at"=>"2013-01-20T00:30:39Z", "id"=>"2"}
+  [1m[36mTodo Load (0.2ms)[0m  [1mSELECT "todos".* FROM "todos" WHERE "todos"."id" = ? LIMIT 1[0m  [["id", "2"]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+Completed 204 No Content in 6ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Sat Jan 19 22:32:41 -0200 2013
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 7ms (Views: 6.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Sat Jan 19 22:32:41 -0200 2013
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Sat Jan 19 22:32:41 -0200 2013
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Sat Jan 19 22:32:41 -0200 2013
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/json2.js?body=1" for 127.0.0.1 at Sat Jan 19 22:32:41 -0200 2013
+Served asset /json2.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at Sat Jan 19 22:32:41 -0200 2013
+Served asset /underscore.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone.js?body=1" for 127.0.0.1 at Sat Jan 19 22:32:41 -0200 2013
+Served asset /backbone.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone-rails.js?body=1" for 127.0.0.1 at Sat Jan 19 22:32:41 -0200 2013
+Served asset /backbone-rails.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/models/todo_item.js?body=1" for 127.0.0.1 at Sat Jan 19 22:32:41 -0200 2013
+Served asset /models/todo_item.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/collections/todo_items.js?body=1" for 127.0.0.1 at Sat Jan 19 22:32:41 -0200 2013
+Served asset /collections/todo_items.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/views/todo_view.js?body=1" for 127.0.0.1 at Sat Jan 19 22:32:41 -0200 2013
+Served asset /views/todo_view.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/views/todos_view.js?body=1" for 127.0.0.1 at Sat Jan 19 22:32:41 -0200 2013
+Served asset /views/todos_view.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/router.js?body=1" for 127.0.0.1 at Sat Jan 19 22:32:41 -0200 2013
+Served asset /router.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Sat Jan 19 22:32:41 -0200 2013
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/todos" for 127.0.0.1 at Sat Jan 19 22:32:41 -0200 2013
+Processing by TodosController#index as JSON
+  [1m[35mTodo Load (0.3ms)[0m  SELECT "todos".* FROM "todos" 
+Completed 200 OK in 4ms (Views: 1.1ms | ActiveRecord: 0.0ms)
+
+
+Started PUT "/todos/2" for 127.0.0.1 at Sat Jan 19 22:32:48 -0200 2013
+Processing by TodosController#update as JSON
+  Parameters: {"description"=>"Walk the dog", "status"=>"incomplete", "created_at"=>"2013-01-20T00:30:39Z", "updated_at"=>"2013-01-20T00:30:39Z", "id"=>"2"}
+  [1m[36mTodo Load (0.2ms)[0m  [1mSELECT "todos".* FROM "todos" WHERE "todos"."id" = ? LIMIT 1[0m  [["id", "2"]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mcommit transaction[0m
+Completed 204 No Content in 7ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Sat Jan 19 22:36:47 -0200 2013
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 26ms (Views: 26.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Sat Jan 19 22:36:47 -0200 2013
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Sat Jan 19 22:36:47 -0200 2013
+Served asset /jquery.js - 304 Not Modified (7ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Sat Jan 19 22:36:47 -0200 2013
+Served asset /jquery_ujs.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/json2.js?body=1" for 127.0.0.1 at Sat Jan 19 22:36:47 -0200 2013
+Served asset /json2.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at Sat Jan 19 22:36:47 -0200 2013
+Served asset /underscore.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/backbone.js?body=1" for 127.0.0.1 at Sat Jan 19 22:36:47 -0200 2013
+Served asset /backbone.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/backbone-rails.js?body=1" for 127.0.0.1 at Sat Jan 19 22:36:47 -0200 2013
+Served asset /backbone-rails.js - 304 Not Modified (11ms)
+
+
+Started GET "/assets/models/todo_item.js?body=1" for 127.0.0.1 at Sat Jan 19 22:36:47 -0200 2013
+Served asset /models/todo_item.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/collections/todo_items.js?body=1" for 127.0.0.1 at Sat Jan 19 22:36:47 -0200 2013
+Served asset /collections/todo_items.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/views/todo_view.js?body=1" for 127.0.0.1 at Sat Jan 19 22:36:47 -0200 2013
+Served asset /views/todo_view.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/views/todos_view.js?body=1" for 127.0.0.1 at Sat Jan 19 22:36:47 -0200 2013
+Served asset /views/todos_view.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/router.js?body=1" for 127.0.0.1 at Sat Jan 19 22:36:47 -0200 2013
+Served asset /router.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Sat Jan 19 22:36:47 -0200 2013
+Served asset /application.js - 304 Not Modified (57ms)
+
+
+Started GET "/todos" for 127.0.0.1 at Sat Jan 19 22:36:47 -0200 2013
+Processing by TodosController#index as JSON
+  [1m[36mTodo Load (0.2ms)[0m  [1mSELECT "todos".* FROM "todos" [0m
+Completed 200 OK in 11ms (Views: 1.3ms | ActiveRecord: 0.0ms)
+
+
+Started PUT "/todos/2" for 127.0.0.1 at Sat Jan 19 22:36:51 -0200 2013
+Processing by TodosController#update as JSON
+  Parameters: {"description"=>"Walk the dog", "status"=>"incomplete", "updated_at"=>"2013-01-20T00:30:39Z", "id"=>"2", "todo"=>{"description"=>"Walk the dog", "status"=>"incomplete", "updated_at"=>"2013-01-20T00:30:39Z", "id"=>"2", "created_at"=>"2013-01-20T00:30:39Z"}, "created_at"=>"2013-01-20T00:30:39Z"}
+  [1m[35mTodo Load (0.2ms)[0m  SELECT "todos".* FROM "todos" WHERE "todos"."id" = ? LIMIT 1  [["id", "2"]]
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.3ms)[0m  UPDATE "todos" SET "updated_at" = '2013-01-20 00:30:39.000000', "created_at" = '2013-01-20 00:30:39.000000', "status" = 'incomplete' WHERE "todos"."id" = 2
+  [1m[36m (178.3ms)[0m  [1mcommit transaction[0m
+Completed 204 No Content in 192ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Sat Jan 19 22:36:54 -0200 2013
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 7ms (Views: 6.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Sat Jan 19 22:36:54 -0200 2013
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Sat Jan 19 22:36:54 -0200 2013
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Sat Jan 19 22:36:54 -0200 2013
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/json2.js?body=1" for 127.0.0.1 at Sat Jan 19 22:36:54 -0200 2013
+Served asset /json2.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at Sat Jan 19 22:36:54 -0200 2013
+Served asset /underscore.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone.js?body=1" for 127.0.0.1 at Sat Jan 19 22:36:54 -0200 2013
+Served asset /backbone.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone-rails.js?body=1" for 127.0.0.1 at Sat Jan 19 22:36:54 -0200 2013
+Served asset /backbone-rails.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/models/todo_item.js?body=1" for 127.0.0.1 at Sat Jan 19 22:36:54 -0200 2013
+Served asset /models/todo_item.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/collections/todo_items.js?body=1" for 127.0.0.1 at Sat Jan 19 22:36:54 -0200 2013
+Served asset /collections/todo_items.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/views/todo_view.js?body=1" for 127.0.0.1 at Sat Jan 19 22:36:54 -0200 2013
+Served asset /views/todo_view.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/views/todos_view.js?body=1" for 127.0.0.1 at Sat Jan 19 22:36:54 -0200 2013
+Served asset /views/todos_view.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/router.js?body=1" for 127.0.0.1 at Sat Jan 19 22:36:54 -0200 2013
+Served asset /router.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Sat Jan 19 22:36:54 -0200 2013
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/todos" for 127.0.0.1 at Sat Jan 19 22:36:54 -0200 2013
+Processing by TodosController#index as JSON
+  [1m[35mTodo Load (0.2ms)[0m  SELECT "todos".* FROM "todos" 
+Completed 200 OK in 4ms (Views: 1.1ms | ActiveRecord: 0.0ms)
+
+
+Started PUT "/todos/2" for 127.0.0.1 at Sat Jan 19 22:37:03 -0200 2013
+Processing by TodosController#update as JSON
+  Parameters: {"description"=>"Walk the dog", "status"=>"complete", "updated_at"=>"2013-01-20T00:30:39Z", "id"=>"2", "todo"=>{"description"=>"Walk the dog", "status"=>"complete", "updated_at"=>"2013-01-20T00:30:39Z", "id"=>"2", "created_at"=>"2013-01-20T00:30:39Z"}, "created_at"=>"2013-01-20T00:30:39Z"}
+  [1m[36mTodo Load (0.1ms)[0m  [1mSELECT "todos".* FROM "todos" WHERE "todos"."id" = ? LIMIT 1[0m  [["id", "2"]]
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.2ms)[0m  [1mUPDATE "todos" SET "updated_at" = '2013-01-20 00:37:03.464857', "status" = 'complete' WHERE "todos"."id" = 2[0m
+  [1m[35m (224.3ms)[0m  commit transaction
+Completed 204 No Content in 232ms (ActiveRecord: 0.0ms)
