@@ -16,14 +16,5 @@ window.Tweets = Backbone.Collection.extend({
     });
     console.log("focussss");
     this.remove(modelsToRemove);
-  },
-
-  destroyOnTodoItem: function(id) {
-    var modelsToRemove = this.filter(function(tweet){
-      return tweet.id != id;
-    });
-    console.log("remove");
-    this.remove(modelsToRemove);
   }
-
 });

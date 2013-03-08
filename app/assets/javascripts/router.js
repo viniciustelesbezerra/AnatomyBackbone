@@ -2,8 +2,7 @@ window.TodoApp = new (Backbone.Router.extend({
   routes: {
     "": "index",
     "todos/:id": "show",
-    "tweets/:id": "showtweets",
-    "destroy/:id": "destroytweets"
+    "tweets/:id": "showtweets"
   },
 
   initialize: function(){
@@ -34,9 +33,5 @@ window.TodoApp = new (Backbone.Router.extend({
   showtweets: function(id){
     this.tweet.focusOnTodoItem(id);
   },
-
-  destroytweets: function(id){
-    this.tweet.destroyOnTodoItem(id);
-  }
 
 }));
