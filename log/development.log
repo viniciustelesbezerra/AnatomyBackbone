@@ -8251,3 +8251,803 @@ Started GET "/tweets" for 127.0.0.1 at Sun Jan 20 20:07:54 -0200 2013
 Processing by TweetsController#index as JSON
   [1m[35mTweet Load (0.2ms)[0m  SELECT "tweets".* FROM "tweets" 
 Completed 200 OK in 3ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-08 17:31:11 -0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (3.0ms)
+Compiled application.css  (26ms)  (pid 3916)
+Compiled jquery.js  (3ms)  (pid 3916)
+Compiled jquery_ujs.js  (0ms)  (pid 3916)
+Compiled json2.js  (1ms)  (pid 3916)
+Compiled underscore.js  (1ms)  (pid 3916)
+Compiled backbone.js  (1ms)  (pid 3916)
+Compiled backbone-rails.js  (125ms)  (pid 3916)
+Compiled models/todo_item.js  (1ms)  (pid 3916)
+Compiled models/tweet.js  (0ms)  (pid 3916)
+Compiled collections/todo_items.js  (1ms)  (pid 3916)
+Compiled collections/tweet.js  (1ms)  (pid 3916)
+Compiled views/todo_view.js  (0ms)  (pid 3916)
+Compiled views/todos_view.js  (0ms)  (pid 3916)
+Compiled views/tweet_view.js  (0ms)  (pid 3916)
+Compiled views/tweets_view.js  (0ms)  (pid 3916)
+Compiled router.js  (0ms)  (pid 3916)
+Compiled application.js  (498ms)  (pid 3916)
+Completed 200 OK in 742ms (Views: 742.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-08 17:31:12 -0300
+Served asset /application.css - 200 OK (3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-08 17:31:12 -0300
+Served asset /jquery.js - 200 OK (7ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-08 17:31:12 -0300
+Served asset /jquery_ujs.js - 200 OK (5ms)
+
+
+Started GET "/assets/json2.js?body=1" for 127.0.0.1 at 2013-03-08 17:31:12 -0300
+Served asset /json2.js - 200 OK (4ms)
+
+
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at 2013-03-08 17:31:12 -0300
+Served asset /underscore.js - 200 OK (7ms)
+
+
+Started GET "/assets/backbone.js?body=1" for 127.0.0.1 at 2013-03-08 17:31:12 -0300
+Served asset /backbone.js - 200 OK (5ms)
+
+
+Started GET "/assets/backbone-rails.js?body=1" for 127.0.0.1 at 2013-03-08 17:31:12 -0300
+Served asset /backbone-rails.js - 200 OK (7ms)
+
+
+Started GET "/assets/models/todo_item.js?body=1" for 127.0.0.1 at 2013-03-08 17:31:12 -0300
+Served asset /models/todo_item.js - 200 OK (2ms)
+
+
+Started GET "/assets/models/tweet.js?body=1" for 127.0.0.1 at 2013-03-08 17:31:12 -0300
+Served asset /models/tweet.js - 200 OK (13ms)
+
+
+Started GET "/assets/collections/todo_items.js?body=1" for 127.0.0.1 at 2013-03-08 17:31:12 -0300
+Served asset /collections/todo_items.js - 200 OK (1ms)
+
+
+Started GET "/assets/collections/tweet.js?body=1" for 127.0.0.1 at 2013-03-08 17:31:12 -0300
+Served asset /collections/tweet.js - 200 OK (2ms)
+
+
+Started GET "/assets/views/todo_view.js?body=1" for 127.0.0.1 at 2013-03-08 17:31:12 -0300
+Served asset /views/todo_view.js - 200 OK (3ms)
+
+
+Started GET "/assets/views/todos_view.js?body=1" for 127.0.0.1 at 2013-03-08 17:31:12 -0300
+Served asset /views/todos_view.js - 200 OK (2ms)
+
+
+Started GET "/assets/views/tweet_view.js?body=1" for 127.0.0.1 at 2013-03-08 17:31:12 -0300
+Served asset /views/tweet_view.js - 200 OK (3ms)
+
+
+Started GET "/assets/views/tweets_view.js?body=1" for 127.0.0.1 at 2013-03-08 17:31:12 -0300
+Served asset /views/tweets_view.js - 200 OK (2ms)
+
+
+Started GET "/assets/router.js?body=1" for 127.0.0.1 at 2013-03-08 17:31:12 -0300
+Served asset /router.js - 200 OK (2ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-08 17:31:12 -0300
+Served asset /application.js - 200 OK (17ms)
+
+
+Started GET "/assets/bg-body.jpg" for 127.0.0.1 at 2013-03-08 17:31:12 -0300
+Served asset /bg-body.jpg - 200 OK (33ms)
+
+
+Started GET "/tweets" for 127.0.0.1 at 2013-03-08 17:31:12 -0300
+Processing by TweetsController#index as JSON
+  [1m[36mTweet Load (0.0ms)[0m  [1mSELECT "tweets".* FROM "tweets" [0m
+Completed 200 OK in 32ms (Views: 3.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bg-todo.png" for 127.0.0.1 at 2013-03-08 17:31:12 -0300
+Served asset /bg-todo.png - 200 OK (33ms)
+
+
+Started GET "/assets/bg-content.png" for 127.0.0.1 at 2013-03-08 17:31:12 -0300
+Served asset /bg-content.png - 200 OK (24ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-08 17:32:21 -0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 14ms (Views: 14.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at 2013-03-08 17:32:21 -0300
+Served asset /underscore.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone.js?body=1" for 127.0.0.1 at 2013-03-08 17:32:21 -0300
+Served asset /backbone.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/json2.js?body=1" for 127.0.0.1 at 2013-03-08 17:32:21 -0300
+Served asset /json2.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-08 17:32:21 -0300
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-08 17:32:21 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-08 17:32:21 -0300
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone-rails.js?body=1" for 127.0.0.1 at 2013-03-08 17:32:21 -0300
+Served asset /backbone-rails.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/models/todo_item.js?body=1" for 127.0.0.1 at 2013-03-08 17:32:21 -0300
+Served asset /models/todo_item.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/models/tweet.js?body=1" for 127.0.0.1 at 2013-03-08 17:32:21 -0300
+Served asset /models/tweet.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/collections/todo_items.js?body=1" for 127.0.0.1 at 2013-03-08 17:32:21 -0300
+Served asset /collections/todo_items.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/collections/tweet.js?body=1" for 127.0.0.1 at 2013-03-08 17:32:21 -0300
+Served asset /collections/tweet.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/views/todo_view.js?body=1" for 127.0.0.1 at 2013-03-08 17:32:21 -0300
+Served asset /views/todo_view.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/views/todos_view.js?body=1" for 127.0.0.1 at 2013-03-08 17:32:21 -0300
+Served asset /views/todos_view.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/views/tweet_view.js?body=1" for 127.0.0.1 at 2013-03-08 17:32:21 -0300
+Served asset /views/tweet_view.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/views/tweets_view.js?body=1" for 127.0.0.1 at 2013-03-08 17:32:22 -0300
+Served asset /views/tweets_view.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/router.js?body=1" for 127.0.0.1 at 2013-03-08 17:32:22 -0300
+Served asset /router.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-08 17:32:22 -0300
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/tweets" for 127.0.0.1 at 2013-03-08 17:32:22 -0300
+Processing by TweetsController#index as JSON
+  [1m[35mTweet Load (0.0ms)[0m  SELECT "tweets".* FROM "tweets" 
+Completed 200 OK in 4ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-08 17:32:30 -0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 18ms (Views: 18.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-08 17:32:30 -0300
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-08 17:32:30 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/json2.js?body=1" for 127.0.0.1 at 2013-03-08 17:32:30 -0300
+Served asset /json2.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at 2013-03-08 17:32:30 -0300
+Served asset /underscore.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-08 17:32:30 -0300
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/backbone.js?body=1" for 127.0.0.1 at 2013-03-08 17:32:30 -0300
+Served asset /backbone.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone-rails.js?body=1" for 127.0.0.1 at 2013-03-08 17:32:30 -0300
+Served asset /backbone-rails.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/models/todo_item.js?body=1" for 127.0.0.1 at 2013-03-08 17:32:30 -0300
+Served asset /models/todo_item.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/models/tweet.js?body=1" for 127.0.0.1 at 2013-03-08 17:32:30 -0300
+Served asset /models/tweet.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/collections/todo_items.js?body=1" for 127.0.0.1 at 2013-03-08 17:32:30 -0300
+Served asset /collections/todo_items.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/collections/tweet.js?body=1" for 127.0.0.1 at 2013-03-08 17:32:30 -0300
+Served asset /collections/tweet.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/views/todo_view.js?body=1" for 127.0.0.1 at 2013-03-08 17:32:30 -0300
+Served asset /views/todo_view.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/views/todos_view.js?body=1" for 127.0.0.1 at 2013-03-08 17:32:31 -0300
+Served asset /views/todos_view.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/views/tweet_view.js?body=1" for 127.0.0.1 at 2013-03-08 17:32:31 -0300
+Served asset /views/tweet_view.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/views/tweets_view.js?body=1" for 127.0.0.1 at 2013-03-08 17:32:31 -0300
+Served asset /views/tweets_view.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/router.js?body=1" for 127.0.0.1 at 2013-03-08 17:32:31 -0300
+Served asset /router.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-08 17:32:31 -0300
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/tweets" for 127.0.0.1 at 2013-03-08 17:32:31 -0300
+Processing by TweetsController#index as JSON
+  [1m[36mTweet Load (0.0ms)[0m  [1mSELECT "tweets".* FROM "tweets" [0m
+Completed 200 OK in 5ms (Views: 1.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tweets" for 127.0.0.1 at 2013-03-08 17:32:41 -0300
+Processing by TweetsController#index as JSON
+  [1m[35mTweet Load (0.0ms)[0m  SELECT "tweets".* FROM "tweets" 
+Completed 200 OK in 3ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tweets" for 127.0.0.1 at 2013-03-08 17:32:48 -0300
+Processing by TweetsController#index as JSON
+  [1m[36mTweet Load (0.0ms)[0m  [1mSELECT "tweets".* FROM "tweets" [0m
+Completed 200 OK in 4ms (Views: 2.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tweets" for 127.0.0.1 at 2013-03-08 17:32:53 -0300
+Processing by TweetsController#index as JSON
+  [1m[35mTweet Load (0.0ms)[0m  SELECT "tweets".* FROM "tweets" 
+Completed 200 OK in 3ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started PUT "/tweets/2" for 127.0.0.1 at 2013-03-08 17:32:54 -0300
+Processing by TweetsController#update as JSON
+  Parameters: {"content"=>"content2\r\n", "created_at"=>"2013-01-20T21:45:27Z", "id"=>"2", "status"=>1, "updated_at"=>"2013-01-20T22:04:32Z", "tweet"=>{"id"=>"2", "content"=>"content2\r\n", "created_at"=>"2013-01-20T21:45:27Z", "updated_at"=>"2013-01-20T22:04:32Z", "status"=>1}}
+  [1m[36mTweet Load (1.0ms)[0m  [1mSELECT "tweets".* FROM "tweets" WHERE "tweets"."id" = ? LIMIT 1[0m  [["id", "2"]]
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (27.9ms)[0m  [1mUPDATE "tweets" SET "updated_at" = '2013-01-20 22:04:32.000000', "status" = 1 WHERE "tweets"."id" = 2[0m
+  [1m[35m (66.3ms)[0m  commit transaction
+Completed 204 No Content in 128ms (ActiveRecord: 0.0ms)
+
+
+Started PUT "/tweets/2" for 127.0.0.1 at 2013-03-08 17:32:58 -0300
+Processing by TweetsController#update as JSON
+  Parameters: {"content"=>"content2\r\n", "created_at"=>"2013-01-20T21:45:27Z", "id"=>"2", "status"=>0, "updated_at"=>"2013-01-20T22:04:32Z", "tweet"=>{"id"=>"2", "content"=>"content2\r\n", "created_at"=>"2013-01-20T21:45:27Z", "updated_at"=>"2013-01-20T22:04:32Z", "status"=>0}}
+  [1m[36mTweet Load (0.0ms)[0m  [1mSELECT "tweets".* FROM "tweets" WHERE "tweets"."id" = ? LIMIT 1[0m  [["id", "2"]]
+  [1m[35m (1.0ms)[0m  begin transaction
+  [1m[36m (1.0ms)[0m  [1mUPDATE "tweets" SET "status" = 0, "updated_at" = '2013-03-08 20:32:58.368972' WHERE "tweets"."id" = 2[0m
+  [1m[35m (89.1ms)[0m  commit transaction
+Completed 204 No Content in 95ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-08 17:35:00 -0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 60ms (Views: 59.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/json2.js?body=1" for 127.0.0.1 at 2013-03-08 17:35:01 -0300
+Served asset /json2.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-08 17:35:01 -0300
+Served asset /jquery.js - 304 Not Modified (18ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-08 17:35:01 -0300
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at 2013-03-08 17:35:01 -0300
+Served asset /underscore.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-08 17:35:01 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/backbone.js?body=1" for 127.0.0.1 at 2013-03-08 17:35:01 -0300
+Served asset /backbone.js - 304 Not Modified (22ms)
+
+
+Started GET "/assets/backbone-rails.js?body=1" for 127.0.0.1 at 2013-03-08 17:35:01 -0300
+Served asset /backbone-rails.js - 304 Not Modified (7ms)
+
+
+Started GET "/assets/models/todo_item.js?body=1" for 127.0.0.1 at 2013-03-08 17:35:01 -0300
+Served asset /models/todo_item.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/models/tweet.js?body=1" for 127.0.0.1 at 2013-03-08 17:35:01 -0300
+Served asset /models/tweet.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/collections/todo_items.js?body=1" for 127.0.0.1 at 2013-03-08 17:35:01 -0300
+Served asset /collections/todo_items.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/collections/tweet.js?body=1" for 127.0.0.1 at 2013-03-08 17:35:01 -0300
+Served asset /collections/tweet.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/views/todo_view.js?body=1" for 127.0.0.1 at 2013-03-08 17:35:01 -0300
+Served asset /views/todo_view.js - 304 Not Modified (8ms)
+
+
+Started GET "/assets/views/todos_view.js?body=1" for 127.0.0.1 at 2013-03-08 17:35:01 -0300
+Served asset /views/todos_view.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/views/tweet_view.js?body=1" for 127.0.0.1 at 2013-03-08 17:35:02 -0300
+Served asset /views/tweet_view.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/views/tweets_view.js?body=1" for 127.0.0.1 at 2013-03-08 17:35:02 -0300
+Served asset /views/tweets_view.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/router.js?body=1" for 127.0.0.1 at 2013-03-08 17:35:02 -0300
+Served asset /router.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-08 17:35:02 -0300
+Served asset /application.js - 304 Not Modified (30ms)
+
+
+Started GET "/__meta_request/239a616c816785e1a60205c7c7fbd347.json" for 127.0.0.1 at 2013-03-08 17:35:02 -0300
+
+
+Started GET "/tweets" for 127.0.0.1 at 2013-03-08 17:35:02 -0300
+Processing by TweetsController#index as JSON
+  [1m[36mTweet Load (0.0ms)[0m  [1mSELECT "tweets".* FROM "tweets" [0m
+Completed 200 OK in 17ms (Views: 3.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/__meta_request/cc1e76b8828e8ea55add18e9ced11e0c.json" for 127.0.0.1 at 2013-03-08 17:35:02 -0300
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-08 17:40:21 -0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 58ms (Views: 58.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/json2.js?body=1" for 127.0.0.1 at 2013-03-08 17:40:21 -0300
+Served asset /json2.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-08 17:40:21 -0300
+Served asset /jquery.js - 304 Not Modified (16ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-08 17:40:21 -0300
+Served asset /application.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-08 17:40:21 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at 2013-03-08 17:40:21 -0300
+Served asset /underscore.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/backbone.js?body=1" for 127.0.0.1 at 2013-03-08 17:40:21 -0300
+Served asset /backbone.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/backbone-rails.js?body=1" for 127.0.0.1 at 2013-03-08 17:40:22 -0300
+Served asset /backbone-rails.js - 304 Not Modified (8ms)
+
+
+Started GET "/assets/models/todo_item.js?body=1" for 127.0.0.1 at 2013-03-08 17:40:22 -0300
+Served asset /models/todo_item.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/models/tweet.js?body=1" for 127.0.0.1 at 2013-03-08 17:40:22 -0300
+Served asset /models/tweet.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/collections/todo_items.js?body=1" for 127.0.0.1 at 2013-03-08 17:40:22 -0300
+Served asset /collections/todo_items.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/collections/tweet.js?body=1" for 127.0.0.1 at 2013-03-08 17:40:22 -0300
+Served asset /collections/tweet.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/views/todo_view.js?body=1" for 127.0.0.1 at 2013-03-08 17:40:22 -0300
+Served asset /views/todo_view.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/views/todos_view.js?body=1" for 127.0.0.1 at 2013-03-08 17:40:22 -0300
+Served asset /views/todos_view.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/views/tweet_view.js?body=1" for 127.0.0.1 at 2013-03-08 17:40:22 -0300
+Served asset /views/tweet_view.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/views/tweets_view.js?body=1" for 127.0.0.1 at 2013-03-08 17:40:22 -0300
+Served asset /views/tweets_view.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/router.js?body=1" for 127.0.0.1 at 2013-03-08 17:40:22 -0300
+Served asset /router.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-08 17:40:22 -0300
+Served asset /application.js - 304 Not Modified (28ms)
+
+
+Started GET "/__meta_request/4caa2e4efa8561931d653f45077c97ec.json" for 127.0.0.1 at 2013-03-08 17:40:22 -0300
+
+
+Started GET "/tweets" for 127.0.0.1 at 2013-03-08 17:40:22 -0300
+
+SyntaxError - C:/Users/hjm/Documents/projects/anatomybackbonejs/app/controllers/tweets_controller.rb:18: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+    respond_with @tweet if @tweet = Tweet.create params[:tweet]
+                                                       ^:
+  app/controllers/tweets_controller.rb:18:in `'
+  (gem) activesupport-3.2.2/lib/active_support/dependencies.rb:469:in `block in load_file'
+  (gem) activesupport-3.2.2/lib/active_support/dependencies.rb:639:in `new_constants_in'
+  (gem) activesupport-3.2.2/lib/active_support/dependencies.rb:468:in `load_file'
+  (gem) activesupport-3.2.2/lib/active_support/dependencies.rb:353:in `require_or_load'
+  (gem) activesupport-3.2.2/lib/active_support/dependencies.rb:502:in `load_missing_constant'
+  (gem) activesupport-3.2.2/lib/active_support/dependencies.rb:192:in `block in const_missing'
+  (gem) activesupport-3.2.2/lib/active_support/dependencies.rb:190:in `const_missing'
+  (gem) activesupport-3.2.2/lib/active_support/inflector/methods.rb:229:in `block in constantize'
+  (gem) activesupport-3.2.2/lib/active_support/inflector/methods.rb:228:in `constantize'
+  (gem) activesupport-3.2.2/lib/active_support/dependencies.rb:554:in `get'
+  (gem) actionpack-3.2.2/lib/action_dispatch/routing/route_set.rb:63:in `controller_reference'
+  (gem) actionpack-3.2.2/lib/action_dispatch/routing/route_set.rb:48:in `controller'
+  (gem) actionpack-3.2.2/lib/action_dispatch/routing/route_set.rb:26:in `call'
+  (gem) journey-1.0.3/lib/journey/router.rb:68:in `block in call'
+  (gem) journey-1.0.3/lib/journey/router.rb:56:in `call'
+  (gem) actionpack-3.2.2/lib/action_dispatch/routing/route_set.rb:594:in `call'
+  (gem) meta_request-0.2.1/lib/meta_request/middlewares/app_request_handler.rb:11:in `call'
+  (gem) rack-contrib-1.1.0/lib/rack/contrib/response_headers.rb:17:in `call'
+  (gem) meta_request-0.2.1/lib/meta_request/middlewares/headers.rb:16:in `call'
+  (gem) meta_request-0.2.1/lib/meta_request/middlewares/meta_request_handler.rb:13:in `call'
+  (gem) actionpack-3.2.2/lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  (gem) rack-1.4.1/lib/rack/etag.rb:23:in `call'
+  (gem) rack-1.4.1/lib/rack/conditionalget.rb:25:in `call'
+  (gem) actionpack-3.2.2/lib/action_dispatch/middleware/head.rb:14:in `call'
+  (gem) actionpack-3.2.2/lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  (gem) actionpack-3.2.2/lib/action_dispatch/middleware/flash.rb:242:in `call'
+  (gem) rack-1.4.1/lib/rack/session/abstract/id.rb:205:in `context'
+  (gem) rack-1.4.1/lib/rack/session/abstract/id.rb:200:in `call'
+  (gem) actionpack-3.2.2/lib/action_dispatch/middleware/cookies.rb:338:in `call'
+  (gem) activerecord-3.2.2/lib/active_record/query_cache.rb:64:in `call'
+  (gem) activerecord-3.2.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:443:in `call'
+  (gem) actionpack-3.2.2/lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  (gem) activesupport-3.2.2/lib/active_support/callbacks.rb:405:in `_run__1008776844__call__913882435__callbacks'
+  (gem) activesupport-3.2.2/lib/active_support/callbacks.rb:405:in `__run_callback'
+  (gem) activesupport-3.2.2/lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  (gem) activesupport-3.2.2/lib/active_support/callbacks.rb:81:in `run_callbacks'
+  (gem) actionpack-3.2.2/lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  (gem) actionpack-3.2.2/lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  (gem) actionpack-3.2.2/lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  (gem) better_errors-0.6.0/lib/better_errors/middleware.rb:71:in `protected_app_call'
+  (gem) better_errors-0.6.0/lib/better_errors/middleware.rb:66:in `better_errors_call'
+  (gem) better_errors-0.6.0/lib/better_errors/middleware.rb:41:in `call'
+  (gem) actionpack-3.2.2/lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  (gem) actionpack-3.2.2/lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  (gem) railties-3.2.2/lib/rails/rack/logger.rb:26:in `call_app'
+  (gem) railties-3.2.2/lib/rails/rack/logger.rb:16:in `call'
+  (gem) actionpack-3.2.2/lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  (gem) rack-1.4.1/lib/rack/methodoverride.rb:21:in `call'
+  (gem) rack-1.4.1/lib/rack/runtime.rb:17:in `call'
+  (gem) activesupport-3.2.2/lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  (gem) rack-1.4.1/lib/rack/lock.rb:15:in `call'
+  (gem) actionpack-3.2.2/lib/action_dispatch/middleware/static.rb:61:in `call'
+  (gem) railties-3.2.2/lib/rails/engine.rb:479:in `call'
+  (gem) railties-3.2.2/lib/rails/application.rb:220:in `call'
+  (gem) rack-1.4.1/lib/rack/content_length.rb:14:in `call'
+  (gem) railties-3.2.2/lib/rails/rack/log_tailer.rb:14:in `call'
+  (gem) rack-1.4.1/lib/rack/handler/webrick.rb:59:in `service'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+
+Started GET "/__meta_request/894a483ea48976745bc56dbf74e77582.json" for 127.0.0.1 at 2013-03-08 17:40:22 -0300
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-08 17:42:10 -0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 21ms (Views: 20.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-08 17:42:10 -0300
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-08 17:42:10 -0300
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-08 17:42:10 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/json2.js?body=1" for 127.0.0.1 at 2013-03-08 17:42:10 -0300
+Served asset /json2.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at 2013-03-08 17:42:10 -0300
+Served asset /underscore.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone.js?body=1" for 127.0.0.1 at 2013-03-08 17:42:10 -0300
+Served asset /backbone.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone-rails.js?body=1" for 127.0.0.1 at 2013-03-08 17:42:10 -0300
+Served asset /backbone-rails.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/models/todo_item.js?body=1" for 127.0.0.1 at 2013-03-08 17:42:10 -0300
+Served asset /models/todo_item.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/models/tweet.js?body=1" for 127.0.0.1 at 2013-03-08 17:42:10 -0300
+Served asset /models/tweet.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/collections/todo_items.js?body=1" for 127.0.0.1 at 2013-03-08 17:42:10 -0300
+Served asset /collections/todo_items.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/collections/tweet.js?body=1" for 127.0.0.1 at 2013-03-08 17:42:10 -0300
+Served asset /collections/tweet.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/views/todo_view.js?body=1" for 127.0.0.1 at 2013-03-08 17:42:11 -0300
+Served asset /views/todo_view.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/views/todos_view.js?body=1" for 127.0.0.1 at 2013-03-08 17:42:11 -0300
+Served asset /views/todos_view.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/views/tweet_view.js?body=1" for 127.0.0.1 at 2013-03-08 17:42:11 -0300
+Served asset /views/tweet_view.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/views/tweets_view.js?body=1" for 127.0.0.1 at 2013-03-08 17:42:11 -0300
+Served asset /views/tweets_view.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/router.js?body=1" for 127.0.0.1 at 2013-03-08 17:42:11 -0300
+Served asset /router.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-08 17:42:11 -0300
+Served asset /application.js - 304 Not Modified (3ms)
+
+
+Started GET "/__meta_request/ceda26c8c2a5f640cd907c3baeebd18f.json" for 127.0.0.1 at 2013-03-08 17:42:11 -0300
+
+
+Started GET "/tweets" for 127.0.0.1 at 2013-03-08 17:42:11 -0300
+Processing by TweetsController#index as JSON
+  [1m[36mTweet Load (0.0ms)[0m  [1mSELECT "tweets".* FROM "tweets" [0m
+Completed 200 OK in 28ms (Views: 4.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/__meta_request/5bfb911948e42045d8bf1cd7e7588fea.json" for 127.0.0.1 at 2013-03-08 17:42:11 -0300
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-08 17:43:08 -0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 9ms (Views: 9.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-08 17:43:08 -0300
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-08 17:43:08 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-08 17:43:08 -0300
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at 2013-03-08 17:43:08 -0300
+Served asset /underscore.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/json2.js?body=1" for 127.0.0.1 at 2013-03-08 17:43:08 -0300
+Served asset /json2.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/backbone.js?body=1" for 127.0.0.1 at 2013-03-08 17:43:08 -0300
+Served asset /backbone.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/models/todo_item.js?body=1" for 127.0.0.1 at 2013-03-08 17:43:08 -0300
+Served asset /models/todo_item.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/backbone-rails.js?body=1" for 127.0.0.1 at 2013-03-08 17:43:08 -0300
+Served asset /backbone-rails.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/models/tweet.js?body=1" for 127.0.0.1 at 2013-03-08 17:43:08 -0300
+Served asset /models/tweet.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/collections/tweet.js?body=1" for 127.0.0.1 at 2013-03-08 17:43:08 -0300
+Served asset /collections/tweet.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/collections/todo_items.js?body=1" for 127.0.0.1 at 2013-03-08 17:43:08 -0300
+Served asset /collections/todo_items.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/views/todo_view.js?body=1" for 127.0.0.1 at 2013-03-08 17:43:08 -0300
+Served asset /views/todo_view.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/views/todos_view.js?body=1" for 127.0.0.1 at 2013-03-08 17:43:08 -0300
+Served asset /views/todos_view.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/views/tweet_view.js?body=1" for 127.0.0.1 at 2013-03-08 17:43:08 -0300
+Served asset /views/tweet_view.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/views/tweets_view.js?body=1" for 127.0.0.1 at 2013-03-08 17:43:09 -0300
+Served asset /views/tweets_view.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/router.js?body=1" for 127.0.0.1 at 2013-03-08 17:43:09 -0300
+Served asset /router.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-08 17:43:09 -0300
+Served asset /application.js - 304 Not Modified (3ms)
+
+
+Started GET "/__meta_request/2e762a3766512833763208222ea43682.json" for 127.0.0.1 at 2013-03-08 17:43:09 -0300
+
+
+Started GET "/tweets" for 127.0.0.1 at 2013-03-08 17:43:09 -0300
+Processing by TweetsController#index as JSON
+  [1m[35mTweet Load (0.0ms)[0m  SELECT "tweets".* FROM "tweets" 
+Completed 200 OK in 7ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/__meta_request/d15a728a75b31925a33da1d73c24b52b.json" for 127.0.0.1 at 2013-03-08 17:43:09 -0300
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-08 17:44:41 -0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 9ms (Views: 9.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-08 17:44:42 -0300
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-08 17:44:42 -0300
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/backbone.js?body=1" for 127.0.0.1 at 2013-03-08 17:44:42 -0300
+Served asset /backbone.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at 2013-03-08 17:44:42 -0300
+Served asset /underscore.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-08 17:44:42 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/json2.js?body=1" for 127.0.0.1 at 2013-03-08 17:44:42 -0300
+Served asset /json2.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone-rails.js?body=1" for 127.0.0.1 at 2013-03-08 17:44:42 -0300
+Served asset /backbone-rails.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/models/todo_item.js?body=1" for 127.0.0.1 at 2013-03-08 17:44:42 -0300
+Served asset /models/todo_item.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/collections/todo_items.js?body=1" for 127.0.0.1 at 2013-03-08 17:44:42 -0300
+Served asset /collections/todo_items.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/models/tweet.js?body=1" for 127.0.0.1 at 2013-03-08 17:44:42 -0300
+Served asset /models/tweet.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/collections/tweet.js?body=1" for 127.0.0.1 at 2013-03-08 17:44:42 -0300
+Served asset /collections/tweet.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/views/todo_view.js?body=1" for 127.0.0.1 at 2013-03-08 17:44:42 -0300
+Served asset /views/todo_view.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/views/todos_view.js?body=1" for 127.0.0.1 at 2013-03-08 17:44:42 -0300
+Served asset /views/todos_view.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/views/tweet_view.js?body=1" for 127.0.0.1 at 2013-03-08 17:44:42 -0300
+Served asset /views/tweet_view.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/views/tweets_view.js?body=1" for 127.0.0.1 at 2013-03-08 17:44:42 -0300
+Served asset /views/tweets_view.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/router.js?body=1" for 127.0.0.1 at 2013-03-08 17:44:42 -0300
+Served asset /router.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-08 17:44:42 -0300
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/__meta_request/ca07ab4691adbaa04fc2f59eb62f010f.json" for 127.0.0.1 at 2013-03-08 17:44:42 -0300
+
+
+Started GET "/tweets" for 127.0.0.1 at 2013-03-08 17:44:42 -0300
+Processing by TweetsController#index as JSON
+  [1m[36mTweet Load (0.0ms)[0m  [1mSELECT "tweets".* FROM "tweets" [0m
+Completed 200 OK in 19ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/__meta_request/29e7f33ba18e9e6a370416166ef42602.json" for 127.0.0.1 at 2013-03-08 17:44:43 -0300
