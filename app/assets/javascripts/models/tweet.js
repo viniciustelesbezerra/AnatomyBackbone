@@ -5,5 +5,15 @@ window.Tweet = Backbone.Model.extend({
   },
   destroyTweet: function(){
   	this.destroy();
+  },
+  editxTweet: function(){
+
+	contenttoupdate = $('input[idvalue='+this.get("id")+']').val();
+
+  	console.log( contenttoupdate );
+
+  },
+  newTweet: function(){
+  	//this.new();
   }
 });
