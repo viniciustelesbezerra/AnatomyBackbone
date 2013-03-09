@@ -3,7 +3,7 @@ class TweetsController < ApplicationController
   respond_to :json
 
   def index
-    respond_with(Tweet.all) 
+    respond_with(Tweet.all)
   end
 
   def show
@@ -19,12 +19,12 @@ class TweetsController < ApplicationController
   end
 
   def destroy
-    respond_with(@tweet) if @tweet.destroy
+    respond_with(Tweet.all) if @tweet.destroy
   end
 
   private
   def load_tweet
-    @tweet = Tweet.find(params[:id])
+    @tweet = Tweet.find params[:id]
   end
 
 end

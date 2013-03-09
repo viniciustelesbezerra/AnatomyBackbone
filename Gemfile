@@ -13,9 +13,9 @@ end
 gem 'jquery-rails'
 gem 'backbone-rails'#, git: 'https://github.com/rubymaverick/backbone-rails.git'
 
-gem "better_errors", :group => :development
-gem "binding_of_caller", :group => :development
-gem "meta_request", :group => :development
+#gem "better_errors", :group => :development
+#gem "binding_of_caller", :group => :development
+#gem "meta_request", :group => :development
 
 group :development, :test do
   gem 'sqlite3'
