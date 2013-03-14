@@ -5,19 +5,13 @@ window.TodoApp = new (Backbone.Router.extend({
     "tweets/:id": "showtweets"
   },
 
-  initialize: function(){
-    this.todoItems = new TodoItems();
-    this.todosView = new TodosView({collection: this.todoItems});
-    this.todosView.render();
-    
+  initialize: function(){   
     this.tweet = new Tweets();
     this.tweetsView = new TweetsView({collection: this.tweet});
     this.tweetsView.render();
   },
 
   index: function(){
-    // $('#app').html(this.todosView.el);
-    // this.todoItems.fetch();
     $('#app').html(this.tweetsView.el);
     this.tweet.fetch();
   },
@@ -32,6 +26,6 @@ window.TodoApp = new (Backbone.Router.extend({
 
   showtweets: function(id){
     this.tweet.focusOnTodoItem(id);
-  },
+  }
 
 }));

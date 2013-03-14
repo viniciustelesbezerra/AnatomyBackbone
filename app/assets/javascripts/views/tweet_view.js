@@ -31,6 +31,10 @@ window.TweetView = Backbone.View.extend({
 
   editTweet: function(){
     this.model.editTweet();
+  },
+  
+  newTweet: function(){
+    this.model.newTweet();
   }
 
 });

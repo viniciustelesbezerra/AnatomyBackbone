@@ -15,7 +15,7 @@ class TweetsController < ApplicationController
   end
 
   def create
-    respond_with @tweet if @tweet = Tweet.create params[:tweet]
+    respond_with @tweet if @tweet = Tweet.create(params[:tweet])
   end
 
   def destroy
