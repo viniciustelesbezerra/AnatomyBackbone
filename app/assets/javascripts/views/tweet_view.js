@@ -1,9 +1,10 @@
 window.TweetView = Backbone.View.extend({
-  template: _.template('<h3 class="<%= status == 0 ? "disabled" : "enabled" %>"><input type=checkbox <%= status == 0 ? "checked=checked" : "" %>/> <%= content %> <a href="/#tweets/<%= id %>">☞</a> </h3> <br /> <a id="destroy" href="#destroy">x</a>'),
+  template: _.template('<h3 class="<%= status == 0 ? "disabled" : "enabled" %>"><input id="changestatus"type=checkbox <%= status == 0 ? "checked=checked" : "" %>/> <%= content %> <a href="/#tweets/<%= id %>">☞</a> <a id="destroy" href="#destroy">✘</a> </a> <a id="edit" href="#edit">✍</a> </h3> Edit content <input id="editcontent" idvalue="<%= id %>" type="text">'),
 
   events: {
-    'change input': 'toggleStatus',
-    'click a#destroy' : 'destroyTweet'
+    'change input#changestatus': 'toggleStatus',
+    'click a#destroy' : 'destroyTweet',
+    'click a#edit' : 'editTweet'
   },
 
   initialize: function(){
@@ -21,12 +22,16 @@ window.TweetView = Backbone.View.extend({
   },
 
   toggleStatus: function(){
-    this.model.toggleStatus()
+    this.model.toggleStatus();
   },
 
   destroyTweet: function(){
-    console.log(this);
-    this.model.destroyTweet()
+    this.model.destroyTweet();
+  },
+
+  editTweet: function(){
+    this.model.editTweet();
   }
+
 });
 

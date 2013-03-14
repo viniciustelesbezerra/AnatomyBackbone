@@ -14,7 +14,6 @@ window.Tweets = Backbone.Collection.extend({
     var modelsToRemove = this.filter(function(todoItem){
       return todoItem.id != id;
     });
-    console.log("focussss");
     this.remove(modelsToRemove);
   }
 });
